@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "movie_id": 5,
+        "cinema_id": 4,
+        "start_time": "2025-04-19 20:30:00",
+        "audio_type": "Dubbed",
+        "hall": "Hall 5"
+    },
+    {
+        "id": 2,
+        "movie_id": 12,
+        "cinema_id": 5,
+        "start_time": "2025-12-09 17:30:00",
+        "audio_type": "Dubbed",
+        "hall": "Hall 4"
+    },
+    {
+        "id": 3,
+        "movie_id": 15,
+        "cinema_id": 2,
+        "start_time": "2025-05-02 16:00:00",
+        "audio_type": "Original",
+        "hall": "Hall 5"
+    },
+    {
+        "id": 4,
+        "movie_id": 3,
+        "cinema_id": 5,
+        "start_time": "2025-01-09 14:00:00",
+        "audio_type": "Dubbed",
+        "hall": "Hall 3"
+    },
+    {
+        "id": 5,
+        "movie_id": 14,
+        "cinema_id": 3,
+        "start_time": "2025-08-01 19:00:00",
+        "audio_type": "Dual Audio",
+        "hall": "Hall 1"
+    },
+    {
+        "id": 6,
+        "movie_id": 4,
+        "cinema_id": 5,
+        "start_time": "2025-06-03 12:00:00",
+        "audio_type": "Dubbed",
+        "hall": "Hall 4"
+    },
+    {
+        "id": 7,
+        "movie_id": 10,
+        "cinema_id": 2,
+        "start_time": "2025-07-19 13:30:00",
+        "audio_type": "Original",
+        "hall": "Hall 3"
+    },
+    {
+        "id": 8,
+        "movie_id": 4,
+        "cinema_id": 4,
+        "start_time": "2025-06-21 14:30:00",
+        "audio_type": "Dual Audio",
+        "hall": "Hall 2"
+    },
+    {
+        "id": 9,
+        "movie_id": 2,
+        "cinema_id": 4,
+        "start_time": "2025-10-11 20:00:00",
+        "audio_type": "Original",
+        "hall": "Hall 4"
+    },
+    {
+        "id": 10,
+        "movie_id": 3,
+        "cinema_id": 1,
+        "start_time": "2025-10-13 19:00:00",
+        "audio_type": "Dubbed",
+        "hall": "Hall 3"
+    },
+    {
+        "id": 11,
+        "movie_id": 6,
+        "cinema_id": 2,
+        "start_time": "2025-06-14 20:30:00",
+        "audio_type": "Dual Audio",
+        "hall": "Hall 1"
+    },
+    {
+        "id": 12,
+        "movie_id": 3,
+        "cinema_id": 1,
+        "start_time": "2025-03-07 12:00:00",
+        "audio_type": "Original",
+        "hall": "Hall 1"
+    },
+    {
+        "id": 13,
+        "movie_id": 1,
+        "cinema_id": 2,
+        "start_time": "2025-12-06 18:00:00",
+        "audio_type": "Original",
+        "hall": "Hall 2"
+    },
+    {
+        "id": 14,
+        "movie_id": 11,
+        "cinema_id": 3,
+        "start_time": "2025-05-05 15:30:00",
+        "audio_type": "Dubbed",
+        "hall": "Hall 2"
+    },
+    {
+        "id": 15,
+        "movie_id": 2,
+        "cinema_id": 3,
+        "start_time": "2025-11-17 13:30:00",
+        "audio_type": "Dual Audio",
+        "hall": "Hall 1"
+    },
+    {
+        "id": 16,
+        "movie_id": 7,
+        "cinema_id": 3,
+        "start_time": "2025-05-24 12:00:00",
+        "audio_type": "Dubbed",
+        "hall": "Hall 1"
+    },
+    {
+        "id": 17,
+        "movie_id": 13,
+        "cinema_id": 5,
+        "start_time": "2025-10-02 11:00:00",
+        "audio_type": "Dual Audio",
+        "hall": "Hall 5"
+    },
+    {
+        "id": 18,
+        "movie_id": 3,
+        "cinema_id": 1,
+        "start_time": "2025-09-24 19:30:00",
+        "audio_type": "Dual Audio",
+        "hall": "Hall 2"
+    },
+    {
+        "id": 19,
+        "movie_id": 3,
+        "cinema_id": 5,
+        "start_time": "2025-01-23 16:00:00",
+        "audio_type": "Dubbed",
+        "hall": "Hall 5"
+    },
+    {
+        "id": 20,
+        "movie_id": 4,
+        "cinema_id": 1,
+        "start_time": "2025-02-08 17:00:00",
+        "audio_type": "Dual Audio",
+        "hall": "Hall 4"
+    }
+]

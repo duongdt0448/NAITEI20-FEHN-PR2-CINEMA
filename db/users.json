@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Francisco Jackson",
+        "email": "user1@gmail.com",
+        "password": "123456",
+        "phone": "(824)676-1053x52727",
+        "date_of_birth": "1964-11-23",
+        "role": "editor",
+        "avatar_url": "https://placeimg.com/482/929/any"
+    },
+    {
+        "id": 2,
+        "name": "Christina Miller",
+        "email": "user2@gmail.com",
+        "password": "123456",
+        "phone": "755-510-1052",
+        "date_of_birth": "1974-04-15",
+        "role": "admin",
+        "avatar_url": "https://dummyimage.com/121x208"
+    },
+    {
+        "id": 3,
+        "name": "Amanda Howard",
+        "email": "user3@gmail.com",
+        "password": "123456",
+        "phone": "416.024.3429",
+        "date_of_birth": "1972-10-22",
+        "role": "user",
+        "avatar_url": "https://placekitten.com/272/222"
+    }
+]

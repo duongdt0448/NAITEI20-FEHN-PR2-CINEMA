@@ -1,0 +1,333 @@
+[
+    {
+        "id": 1,
+        "title": "Inception",
+        "description": "A mind-bending thriller about dreams within dreams.",
+        "age_restriction": 18,
+        "formats": [
+            "3D",
+            "IMAX 3D"
+        ],
+        "genre": [
+            "Crime",
+            "Sci-Fi",
+            "Animation"
+        ],
+        "duration": 138,
+        "release_date": "2011-07-10",
+        "language": [
+            "Italian"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/rAiYTfKGqDCRIIqoNMqPr6U5UO6.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
+    },
+    {
+        "id": 2,
+        "title": "Parasite",
+        "description": "A dark comedy about social classes and deception.",
+        "age_restriction": 13,
+        "formats": [
+            "3D"
+        ],
+        "genre": [
+            "Thriller",
+            "Romance",
+            "Action"
+        ],
+        "duration": 169,
+        "release_date": "2004-08-11",
+        "language": [
+            "Japanese"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=xU47nhruN-Q"
+    },
+    {
+        "id": 3,
+        "title": "Avatar: The Way of Water",
+        "description": "A journey to Pandora's oceans with breathtaking visuals.",
+        "age_restriction": 13,
+        "formats": [
+            "IMAX",
+            "IMAX 3D",
+            "Dolby Cinema"
+        ],
+        "genre": [
+            "Drama",
+            "Mystery"
+        ],
+        "duration": 162,
+        "release_date": "2007-01-08",
+        "language": [
+            "Italian",
+            "German"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=2LqzF5WauAw"
+    },
+    {
+        "id": 4,
+        "title": "The Dark Knight",
+        "description": "A vigilante fights crime in Gotham against the Joker.",
+        "age_restriction": 18,
+        "formats": [
+            "Dolby Cinema",
+            "IMAX 3D"
+        ],
+        "genre": [
+            "Adventure",
+            "Biography",
+            "Romance"
+        ],
+        "duration": 154,
+        "release_date": "2006-09-07",
+        "language": [
+            "Japanese"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/rAiYTfKGqDCRIIqoNMqPr6U5UO6.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
+    },
+    {
+        "id": 5,
+        "title": "Your Name",
+        "description": "A magical love story involving body-swapping teenagers.",
+        "age_restriction": 0,
+        "formats": [
+            "2D",
+            "3D"
+        ],
+        "genre": [
+            "Crime",
+            "Fantasy"
+        ],
+        "duration": 124,
+        "release_date": "2005-10-10",
+        "language": [
+            "Italian",
+            "Vietnamese"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0"
+    },
+    {
+        "id": 6,
+        "title": "Interstellar",
+        "description": "Explorers venture through a wormhole in space.",
+        "age_restriction": 7,
+        "formats": [
+            "2D"
+        ],
+        "genre": [
+            "Musical",
+            "Crime",
+            "Documentary"
+        ],
+        "duration": 155,
+        "release_date": "2009-12-24",
+        "language": [
+            "French",
+            "Hindi"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=d9MyW72ELq0"
+    },
+    {
+        "id": 7,
+        "title": "Avengers: Endgame",
+        "description": "Superheroes unite to defeat the ultimate villain.",
+        "age_restriction": 0,
+        "formats": [
+            "2D",
+            "3D"
+        ],
+        "genre": [
+            "Sci-Fi",
+            "Musical",
+            "Fantasy"
+        ],
+        "duration": 115,
+        "release_date": "2015-06-11",
+        "language": [
+            "Spanish",
+            "Vietnamese"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/q719jXXEzOoYaps6babgKnONONX.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0"
+    },
+    {
+        "id": 8,
+        "title": "Joker",
+        "description": "A descent into madness of a failed comedian.",
+        "age_restriction": 0,
+        "formats": [
+            "4DX"
+        ],
+        "genre": [
+            "Western",
+            "Comedy"
+        ],
+        "duration": 113,
+        "release_date": "2015-05-11",
+        "language": [
+            "Spanish",
+            "Korean"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0"
+    },
+    {
+        "id": 9,
+        "title": "The Godfather",
+        "description": "A mafia saga of power and betrayal.",
+        "age_restriction": 7,
+        "formats": [
+            "2D"
+        ],
+        "genre": [
+            "Adventure",
+            "War",
+            "Comedy"
+        ],
+        "duration": 119,
+        "release_date": "2017-03-18",
+        "language": [
+            "English",
+            "Vietnamese"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0"
+    },
+    {
+        "id": 10,
+        "title": "The Shawshank Redemption",
+        "description": "A wrongly convicted man fights for justice.",
+        "age_restriction": 0,
+        "formats": [
+            "4DX",
+            "Dolby Cinema"
+        ],
+        "genre": [
+            "Action",
+            "Crime",
+            "War"
+        ],
+        "duration": 125,
+        "release_date": "2023-05-15",
+        "language": [
+            "Chinese",
+            "Italian"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/q719jXXEzOoYaps6babgKnONONX.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=2LqzF5WauAw"
+    },
+    {
+        "id": 11,
+        "title": "Spirited Away",
+        "description": "A young girl navigates a spirit world.",
+        "age_restriction": 0,
+        "formats": [
+            "3D"
+        ],
+        "genre": [
+            "Fantasy",
+            "Thriller",
+            "Romance"
+        ],
+        "duration": 159,
+        "release_date": "2020-01-20",
+        "language": [
+            "Italian"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0"
+    },
+    {
+        "id": 12,
+        "title": "Titanic",
+        "description": "An epic romance aboard the Titanic.",
+        "age_restriction": 0,
+        "formats": [
+            "Dolby Cinema"
+        ],
+        "genre": [
+            "Action",
+            "Western"
+        ],
+        "duration": 143,
+        "release_date": "2006-03-12",
+        "language": [
+            "Vietnamese",
+            "Japanese"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0"
+    },
+    {
+        "id": 13,
+        "title": "The Matrix",
+        "description": "A hacker discovers the truth about reality.",
+        "age_restriction": 0,
+        "formats": [
+            "2D",
+            "3D"
+        ],
+        "genre": [
+            "Animation",
+            "Western"
+        ],
+        "duration": 125,
+        "release_date": "2002-07-10",
+        "language": [
+            "Hindi",
+            "German"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=2LqzF5WauAw"
+    },
+    {
+        "id": 14,
+        "title": "Forrest Gump",
+        "description": "A man with low IQ achieves incredible feats.",
+        "age_restriction": 13,
+        "formats": [
+            "Dolby Cinema",
+            "4DX",
+            "2D"
+        ],
+        "genre": [
+            "Mystery",
+            "Sci-Fi",
+            "Drama"
+        ],
+        "duration": 137,
+        "release_date": "2006-04-13",
+        "language": [
+            "Korean",
+            "Italian"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=2LqzF5WauAw"
+    },
+    {
+        "id": 15,
+        "title": "Gladiator",
+        "description": "A Roman general seeks revenge in the arena.",
+        "age_restriction": 7,
+        "formats": [
+            "IMAX 3D",
+            "IMAX"
+        ],
+        "genre": [
+            "Adventure",
+            "Animation"
+        ],
+        "duration": 104,
+        "release_date": "2010-04-19",
+        "language": [
+            "Italian",
+            "Hindi"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "trailer_url": "https://www.youtube.com/watch?v=5xH0HfJHsaY"
+    }
+]

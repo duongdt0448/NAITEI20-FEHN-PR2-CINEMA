@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Galaxy Cinema",
+        "location": "Đà Nẵng",
+        "phone": "+84 916515090",
+        "email": "contact@galaxycinema.com",
+        "description": "Galaxy Cinema là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+    },
+    {
+        "id": 2,
+        "name": "CGV Cinemas",
+        "location": "Cần Thơ",
+        "phone": "+84 986500234",
+        "email": "contact@cgvcinemas.com",
+        "description": "CGV Cinemas là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+    },
+    {
+        "id": 3,
+        "name": "Lotte Cinema",
+        "location": "TP Hồ Chí Minh",
+        "phone": "+84 962311348",
+        "email": "contact@lottecinema.com",
+        "description": "Lotte Cinema là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+    },
+    {
+        "id": 4,
+        "name": "BHD Star Cineplex",
+        "location": "Hà Nội",
+        "phone": "+84 942996504",
+        "email": "contact@bhdstarcineplex.com",
+        "description": "BHD Star Cineplex là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+    },
+    {
+        "id": 5,
+        "name": "Mega GS Cinemas",
+        "location": "Hải Phòng",
+        "phone": "+84 911290650",
+        "email": "contact@megagscinemas.com",
+        "description": "Mega GS Cinemas là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+    }
+]
