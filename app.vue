@@ -1,9 +1,13 @@
+<script>
+import "primeicons/primeicons.css";
+</script>
+
 <template>
   <div>
+    <Header />
     <NuxtLayout>
-      <Header/>
-      <NuxtPage/>
-      <Footer/>
+      <NuxtPage />
     </NuxtLayout>
+    <Footer />
   </div>
 </template>

@@ -1,726 +1,734 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Francisco Jackson",
-            "email": "user1@gmail.com",
-            "password": "123456",
-            "phone": "(824)676-1053x52727",
-            "date_of_birth": "1964-11-23",
-            "role": "editor",
-            "avatar_url": "https://placeimg.com/482/929/any"
-        },
-        {
-            "id": 2,
-            "name": "Christina Miller",
-            "email": "user2@gmail.com",
-            "password": "123456",
-            "phone": "755-510-1052",
-            "date_of_birth": "1974-04-15",
-            "role": "admin",
-            "avatar_url": "https://dummyimage.com/121x208"
-        },
-        {
-            "id": 3,
-            "name": "Amanda Howard",
-            "email": "user3@gmail.com",
-            "password": "123456",
-            "phone": "416.024.3429",
-            "date_of_birth": "1972-10-22",
-            "role": "user",
-            "avatar_url": "https://placekitten.com/272/222"
-        }
-    ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Francisco Jackson",
+      "email": "user1@gmail.com",
+      "password": "123456",
+      "phone": "(824)676-1053x52727",
+      "date_of_birth": "1964-11-23",
+      "role": "editor",
+      "avatar_url": "https://placeimg.com/482/929/any"
+    },
+    {
+      "id": 2,
+      "name": "Christina Miller",
+      "email": "user2@gmail.com",
+      "password": "123456",
+      "phone": "755-510-1052",
+      "date_of_birth": "1974-04-15",
+      "role": "admin",
+      "avatar_url": "https://dummyimage.com/121x208"
+    },
+    {
+      "id": 3,
+      "name": "Amanda Howard",
+      "email": "user3@gmail.com",
+      "password": "123456",
+      "phone": "416.024.3429",
+      "date_of_birth": "1972-10-22",
+      "role": "user",
+      "avatar_url": "https://placekitten.com/272/222"
+    }
+  ],
 
+  "movies": [
+    {
+      "id": 1,
+      "title": "DOMINION OF DARKNESS: NGHI LỄ TRỤC QUỶ",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-11.jpg",
+      "trailer": "https://www.youtube.com/embed/Dcozj5SP4Yo",
+      "description": "Phim kể về hành trình của một linh mục nghi ngờ đức tin của mình và phải tham gia trừ tà cho một thiếu niên.",
+      "director": ["Bobby Prasetyo"],
+      "actors": ["Jerome Kurnia", "Lukman Sardi"],
+      "genre": "Horror",
+      "releaseDate": "19/03/2025",
+      "duration": 96,
+      "ageLimit": "T18",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 2,
+      "title": "EXORCISM CHRONICLES: TRỪ TÀ KÝ: KHỞI NGUYÊN HẮC ÁM",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-32.jpg",
+      "trailer": "https://www.youtube.com/embed/ZbngTJrb4Lw",
+      "description": "Là một bác sĩ chuyển sang làm linh mục, Cha Park bị khai trừ vì thực hiện các cuộc trừ tà do nhà thờ từ chối tin vào những sinh vật tà ác săn đuổi những người vô tội. Cha Park phải đối mặt với những con quỷ bên trong mình hoặc có nguy cơ lặp lại bi kịch.",
+      "director": ["Kim Dong-Chul"],
+      "actors": ["Nam Doh-hyeong", "Choi Han"],
+      "genre": "Action",
+      "releaseDate": "21/03/2025",
+      "duration": 85,
+      "ageLimit": "T13",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 3,
+      "title": "FLOW: LẠC TRÔI",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/02/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-3.png",
+      "trailer": "https://www.youtube.com/embed/BRV1UmEszeI",
+      "description": "Mèo là loài động vật sống đơn độc, nhưng khi nơi ở của nó bị tàn phá bởi một trận lụt lớn, nó tìm được nơi ẩn náu trên một chiếc thuyền có nhiều loài khác nhau và phải hợp tác với chúng mặc dù chúng có nhiều điểm khác biệt.",
+      "director": ["Gints Zilbalodis"],
+      "actors": ["Meo Meo", "Gâu Gâu", "Capybara Chuột Lang Nước"],
+      "genre": "Family",
+      "releaseDate": "07/03/2025",
+      "duration": 84,
+      "ageLimit": "P",
+      "format": "2D",
+      "type": "Lồng tiếng"
+    },
+    {
+      "id": 4,
+      "title": "FORBIDDEN FAIRYTALE: NGHỀ SIÊU KHÓ NÓI",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-20.jpg",
+      "trailer": "https://www.youtube.com/embed/MTbnrpIsxfQ",
+      "description": "Bộ phim kể về Danbi, một người có ước mơ trở thành nhà văn viết sách thiếu nhi nhưng thực chất lại là lính mới trong đội chống nạn khiêu dâm bất hợp pháp.",
+      "director": ["Jong-suk Lee"],
+      "actors": ["Choi Siwon", "Sung Dong-Il"],
+      "genre": "Comedy",
+      "releaseDate": "21/03/2025",
+      "duration": 102,
+      "ageLimit": "T18",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 5,
+      "title": "HITMAN 2: SÁT THỦ VÔ CÙNG CỰC HÀI",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-3.jpg",
+      "trailer": "https://www.youtube.com/embed/MgKgvjNwjEI",
+      "description": "Sau mùa đầu tiên thành công, Webtoon \"Agent Jun\" sắp bắt đầu mùa thứ hai. Hết ý tưởng, Jun sử dụng một cốt truyện email ẩn danh trong Webtoon của mình, chỉ để thấy các cuộc tấn công khủng bố ngoài đời thực giống với câu chuyện diễn ra.",
+      "director": ["Won-sub Choi"],
+      "actors": ["Kwon Sang-woo", "Lee Ji-won"],
+      "genre": "Comedy",
+      "releaseDate": "14/03/2025",
+      "duration": 107,
+      "ageLimit": "T16",
+      "format": "2D",
+      "type": "Phụ đề/Lồng tiếng"
+    },
+    {
+      "id": 6,
+      "title": "LAST STOP ROCAFORT ST.: NHÀ GA MA CHÓ",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-10.jpg",
+      "trailer": "https://www.youtube.com/embed/K-6YdGyKgTg",
+      "description": "Có gì đó đang ẩn náu trong bóng tối của ga tàu điện ngầm Rocafort, Barcelona. Một bí ẩn đã ám ảnh nơi này từ lâu và giờ đây, nó đang đe dọa đến cuộc sống của Laura – một cô gái trẻ vừa chuyển đến nhận việc lúc những cái chết kỳ lạ bắt đầu xảy ra tại đây.",
+      "director": ["Luis Prieto"],
+      "actors": ["Natalia Ahazara", "Javier Gutiérrez"],
+      "genre": "Horror",
+      "releaseDate": "21/03/2025",
+      "duration": 89,
+      "ageLimit": "T18",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 7,
+      "title": "LITTLE EMMA: EMMA VÀ VƯƠNG QUỐC TÍ HON",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-27.jpg",
+      "trailer": "https://www.youtube.com/embed/Pb_ocNvvdnc",
+      "description": "Emma, một cô gái tí hon được nhận nuôi bởi các động vật, khao khát tìm ra sự thật về nguồn gốc con người của mình. Nhưng khi cô phát hiện ra một hòn đảo ẩn chứa đầy những người tí hon, đó không phải là câu chuyện cổ tích mà cô mong đợi.",
+      "director": ["Leo Lewis Liao"],
+      "actors": ["Niko Gerentes", "Travis Cloer"],
+      "genre": "Family",
+      "releaseDate": "07/03/2025",
+      "duration": 80,
+      "ageLimit": "P",
+      "format": "2D",
+      "type": "Lồng tiếng"
+    },
+    {
+      "id": 8,
+      "title": "LOVE LIES: YÊU VÌ TIỀN ĐIÊN VÌ TÌNH",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-25.jpg",
+      "trailer": "https://www.youtube.com/embed/4hhyaU3XuEM",
+      "description": "Một tổ chức lừa đảo trực tuyến vừa bị triệt phá. Bác sĩ – Tiến sĩ Veronica Yu, được cho là nạn nhân, và chàng trai trẻ Joe Lee, được nhìn thấy gần hang ổ của tổ chức lừa đảo. Khi ranh giới giữa giả dối và cảm xúc dần xóa nhòa,tình yêu liệu có tồn tại?",
+      "director": ["Miu-Kei Ho"],
+      "actors": ["Sandra Kwan Yue Ng", "Michael Tin Fu Cheung"],
+      "genre": "Comedy",
+      "releaseDate": "21/03/2025",
+      "duration": 114,
+      "ageLimit": "T16",
+      "format": "2D",
+      "type": "Phụ đề/Lồng tiếng"
+    },
+    {
+      "id": 9,
+      "title": "MICKEY 17",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-5.jpg",
+      "trailer": "https://www.youtube.com/embed/Dg1kHQhgVBU",
+      "description": "Chuyển thể từ tiểu thuyết \"Mickey 7\" của nhà văn Edward Ashton, Cuốn tiểu thuyết xoay quanh các phiên bản nhân bản vô tính mang tên “Mickey”, dùng để thay thế con người thực hiện cuộc chinh phạt nhằm thuộc địa hóa vương quốc băng giá Niflheim.",
+      "director": ["Bong Joon Ho"],
+      "actors": ["Robert Pattinson", "Naomi Ackie"],
+      "genre": "Comedy",
+      "releaseDate": "14/03/2025",
+      "duration": 137,
+      "ageLimit": "T18",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 10,
+      "title": "MOBILE SUIT GUNDAM GQUUUUUUX: BEGINNING",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-13.jpg",
+      "trailer": "https://www.youtube.com/embed/mvH0q0dC_2g",
+      "description": "Trong cuộc chiến giữa Zeon và Liên bang Trái đất, một mẫu Gundam bị đánh cắp đã biến mất. Nhiều năm sau, một cô gái có khả năng bí ẩn thấy mình đang lái một Gundam mới trong các trận chiến dưới lòng đất trong khi tìm kiếm câu trả lời về sức mạnh của mình.",
+      "director": ["Kazuya Tsurumaki"],
+      "actors": ["Tomoya Kurosawa", "Yui Ishikawa"],
+      "genre": "Animation",
+      "releaseDate": "18/02/2025",
+      "duration": 83,
+      "ageLimit": "T13",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 11,
+      "title": "NHÀ GIA TIÊN",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/02/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-15.jpg",
+      "trailer": "https://www.youtube.com/embed/aR2lnpCLqUk",
+      "description": "Tại sao chúng ta phải cùng nhau gìn giữ căn Nhà Gia Tiên? Vì sao những thế hệ con cháu luôn mất kết nối với ông bà của mình? Con người khi chết sẽ đi về đâu? Tại sao mỗi năm chúng ta phải làm đám giỗ cho người đã khuất?",
+      "director": ["Huỳnh Lập"],
+      "actors": [
+        "Huỳnh Lập",
+        "Phương Mỹ Chi",
+        "NSƯT Hạnh Thúy",
+        "NSƯT Huỳnh Đông"
+      ],
+      "genre": "Comedy",
+      "releaseDate": "21/02/2025",
+      "duration": 117,
+      "ageLimit": "T18",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 12,
+      "title": "NOVOCAINE: ANH KHÔNG ĐAU",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-12.jpg",
+      "trailer": "https://www.youtube.com/embed/Bdc374-vUTQ",
+      "description": "Khi cô gái trong mơ của mình bị bắt cóc, một người đàn ông không có khả năng cảm thấy đau đớn về thể xác đã biến tình trạng hiếm gặp của mình thành một lợi thế bất ngờ trong cuộc chiến giải cứu cô.",
+      "director": ["Dan Berk", "Robert Olsen"],
+      "actors": ["Jack Quaid", "Amber Midthunder"],
+      "genre": "Action",
+      "releaseDate": "14/03/2025",
+      "duration": 110,
+      "ageLimit": "T18",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 13,
+      "title": "NỤ HÔN BẠC TỶ",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/01/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-21.jpg",
+      "trailer": "https://www.youtube.com/embed/_Dd4t2XPB-Y",
+      "description": "Câu chuyện xoay quanh Vân – cô gái bán bánh mì vô tình gặp phải 2 chàng trai trong một tai nạn nhỏ. Làm thế nào khi tiếng sét ái tình đánh một lúc cả 3 người? Liệu giữa một chàng trai chững chạc và một chàng trai ngông nghênh đâu mới là định mệnh của Vân?",
+      "director": ["Thu Trang"],
+      "actors": [
+        "Lê Xuân Tiền",
+        "Tiến Luật",
+        "Huỳnh Phương",
+        "Võ Tấn Phát",
+        "Ma Ran Đô",
+        "Đoàn Thiên Ân",
+        "Thu Trang"
+      ],
+      "genre": "Comedy",
+      "releaseDate": "29/01/2025",
+      "duration": 100,
+      "ageLimit": "T13",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 14,
+      "title": "QUỶ NHẬP TRÀNG",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/02/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-24.jpg",
+      "trailer": "https://www.youtube.com/embed/PXwHpkZ6pXw",
+      "description": "Lấy cảm hứng từ truyền thuyết kinh dị nhất về “người chết sống dậy”, Quỷ Nhập Tràng là câu chuyện được lấy bối cảnh tại một ngôi làng chuyên nghề mai táng, gắn liền với những hoạt động đào mộ, tẩm liệm và chôn cất người chết.",
+      "director": ["Pom Nguyễn"],
+      "actors": ["Vân Dung", "Quang Tuấn", "Khả Như"],
+      "genre": "Horror",
+      "releaseDate": "07/03/2025",
+      "duration": 122,
+      "ageLimit": "T18",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 15,
+      "title": "SNOW WHITE: NÀNG BẠCH TUYẾT",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-15.png",
+      "trailer": "https://www.youtube.com/embed/cJh3IhW7wjo",
+      "description": "Phiên bản chuyển thể người đóng của bộ phim hoạt hình 'Bạch Tuyết và bảy chú lùn' của Disney năm 1937.",
+      "director": ["Marc Webb"],
+      "actors": ["Gal Gadot", "Rachel Zegler"],
+      "genre": "Family",
+      "releaseDate": "21/03/2025",
+      "duration": 108,
+      "ageLimit": "P",
+      "format": "2D",
+      "type": "Phụ đề/Lồng tiếng"
+    },
+    {
+      "id": 16,
+      "title": "THE DEVIL'S BRIDGE: CƯỚI MA: HIẾN MẸ CHO QUỶ",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/02/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-42.jpg",
+      "trailer": "https://www.youtube.com/embed/ODQUOp10WpY",
+      "description": "Ranti, một người mẹ và một người vợ rất chung thủy. Ranti có một cô con gái mà cô rất yêu thương, Nina. Nina bị khuyết tật từ khi sinh ra. Một ngày nọ, Nina gặp tai nạn chết người và phải điều trị ngay lập tức.",
+      "director": ["Azhar Kinoi Lubis"],
+      "actors": ["Wafda Saifan Lubis", "Taskya Namya"],
+      "genre": "Horror",
+      "releaseDate": "28/02/2025",
+      "duration": 97,
+      "ageLimit": "T18",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 17,
+      "title": "THE MONKEY: TIẾNG VỌNG KINH HOÀNG",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-21.jpg",
+      "trailer": "https://www.youtube.com/embed/tUCU2qidmOI",
+      "description": "Khi hai anh em sinh đôi Bill và Hal tìm thấy con khỉ đồ chơi cũ của cha mình trên gác xép, một loạt cái chết khủng khiếp bắt đầu. Hai anh em quyết định vứt bỏ món đồ chơi và tiếp tục cuộc sống của mình, ngày càng xa cách nhau theo năm tháng.",
+      "director": ["Osgood Perkins"],
+      "actors": ["Theo James", "Tatiana Maslany"],
+      "genre": "Horror",
+      "releaseDate": "14/03/2025",
+      "duration": 98,
+      "ageLimit": "T18",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 18,
+      "title": "THE RING: VÒNG TRÒN OAN NGHIỆT",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-24.jpg",
+      "trailer": null,
+      "description": "Cháu gái của phóng viên Reiko được tìm thấy đã chết cùng với ba người bạn sau khi xem một đoạn băng video bị nguyền rủa.  Cô bắt đầu điều tra và tìm thấy đoạn băng, xem nó và nhận được một cuộc gọi điện thoại thông báo rằng cô sẽ chết trong một tuần.",
+      "director": ["Hideo Nakata"],
+      "actors": ["Nanako Matsushima", "Miki Nakatani"],
+      "genre": "Horror",
+      "releaseDate": "21/03/2025",
+      "duration": 95,
+      "ageLimit": "T16",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 19,
+      "title": "THE SNOW QUEEN AND THE PRINCESS:CÔNG CHÚA BĂNG GIÁ",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-35.jpg",
+      "trailer": null,
+      "description": "Kai và Gerda sống trong một thị trấn yên tĩnh ấm cúng, đột nhiên các Linh hồn băng giá đến đó để đóng băng mọi người. Ila, một phù thủy nhỏ, đã đến để giúp các anh hùng. Cùng nhau, họ đến thế giới ma thuật Mirrorland để lấy lại các Linh hồn băng giá.",
+      "director": ["Andrey Korn", "Alex Tsitsilin"],
+      "actors": ["Irina Chumantyeva", "Svetlana Kuznetsova"],
+      "genre": "Family",
+      "releaseDate": "28/03/2025",
+      "duration": 75,
+      "ageLimit": "TBC",
+      "format": "2D",
+      "type": "Lồng tiếng"
+    },
+    {
+      "id": 20,
+      "title": "THUNDERSTRUCK COP: THÁM TỬ SÉT ĐÁNH",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-23.jpg",
+      "trailer": "https://www.youtube.com/embed/Dxk9xQ2wdkI",
+      "description": "Một ngày nọ, Hyun-joon, một cảnh sát sống với mẹ và con gái, đạt được siêu năng lực sau khi bị sét đánh. Sau sự cố, Hyun-joon nhận ra rằng có những người khác cũng đang trải qua tình huống tương tự như anh, và bị cuốn vào những tình huống bất ngờ.",
+      "director": ["Young-jun Kim"],
+      "actors": ["Shin Hyun-joon", "Jeong Jun-ho"],
+      "genre": "Comedy",
+      "releaseDate": "21/03/2025",
+      "duration": 107,
+      "ageLimit": "TBC",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 21,
+      "title": "VIETNAMESE CONCERT FILM:CHÚNG TA LÀ NGƯỜI VIỆT NAM",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-26.jpg",
+      "trailer": "https://www.youtube.com/embed/HLOlV2tqCPY",
+      "description": "Bộ phim bao gồm những thước phim chưa từng được công bố về quá trình chuẩn bị cho các buổi hòa nhạc của Hoàng Thuỳ Linh. Phim sẽ cho thấy ý tưởng, vũ đạo, cách bố trí sân khấu cho các buổi hòa nhạc của ca sĩ.",
+      "director": ["Hoàng Thùy Linh"],
+      "actors": ["Hoàng Thùy Linh"],
+      "genre": "Musical",
+      "releaseDate": "14/03/2025",
+      "duration": 98,
+      "ageLimit": "P",
+      "format": "2D",
+      "type": "Phụ đề"
+    },
+    {
+      "id": 22,
+      "title": "YOU ARE THE APPLE OF MY EYE: CÔ GÁI NĂM ẤY",
+      "poster": "https://www.bhdstar.vn/wp-content/uploads/2025/03/referenceSchemeHeadOfficeallowPlaceHoldertrueheight700ldapp-15.jpg",
+      "trailer": "https://www.youtube.com/embed/2-3gpCp_Mus",
+      "description": "Một nhóm bạn thân học tại một trường tư thục đều phải lòng cô học sinh ngôi sao đầy nắng, Sun-ah. Thành viên duy nhất trong nhóm không nói rằng mình như vậy là Jin-woo, nhưng cuối cùng anh cũng yêu cô.",
+      "director": ["Cho Young-Myoung"],
+      "actors": ["Jung Jinyoung", "Kim Da-Hyun"],
+      "genre": "Drama",
+      "releaseDate": "21/03/2025",
+      "duration": 102,
+      "ageLimit": "T16",
+      "format": "2D",
+      "type": "Phụ đề"
+    }
+  ],
+  "cinemas": [
+    {
+      "id": 1,
+      "name": "Galaxy Cinema",
+      "location": "Đà Nẵng",
+      "phone": "+84 916515090",
+      "email": "contact@galaxycinema.com",
+      "description": "Galaxy Cinema là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+    },
+    {
+      "id": 2,
+      "name": "CGV Cinemas",
+      "location": "Cần Thơ",
+      "phone": "+84 986500234",
+      "email": "contact@cgvcinemas.com",
+      "description": "CGV Cinemas là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+    },
+    {
+      "id": 3,
+      "name": "Lotte Cinema",
+      "location": "TP Hồ Chí Minh",
+      "phone": "+84 962311348",
+      "email": "contact@lottecinema.com",
+      "description": "Lotte Cinema là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+    },
+    {
+      "id": 4,
+      "name": "BHD Star Cineplex",
+      "location": "Hà Nội",
+      "phone": "+84 942996504",
+      "email": "contact@bhdstarcineplex.com",
+      "description": "BHD Star Cineplex là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+    },
+    {
+      "id": 5,
+      "name": "Mega GS Cinemas",
+      "location": "Hải Phòng",
+      "phone": "+84 911290650",
+      "email": "contact@megagscinemas.com",
+      "description": "Mega GS Cinemas là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+    }
+  ],
 
-    "movies": [
-        {
-            "id": 1,
-            "title": "Inception",
-            "description": "A mind-bending thriller about dreams within dreams.",
-            "age_restriction": 18,
-            "formats": [
-                "3D",
-                "IMAX 3D"
-            ],
-            "genre": [
-                "Crime",
-                "Sci-Fi",
-                "Animation"
-            ],
-            "duration": 138,
-            "release_date": "2011-07-10",
-            "language": [
-                "Italian"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/rAiYTfKGqDCRIIqoNMqPr6U5UO6.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
-        },
-        {
-            "id": 2,
-            "title": "Parasite",
-            "description": "A dark comedy about social classes and deception.",
-            "age_restriction": 13,
-            "formats": [
-                "3D"
-            ],
-            "genre": [
-                "Thriller",
-                "Romance",
-                "Action"
-            ],
-            "duration": 169,
-            "release_date": "2004-08-11",
-            "language": [
-                "Japanese"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=xU47nhruN-Q"
-        },
-        {
-            "id": 3,
-            "title": "Avatar: The Way of Water",
-            "description": "A journey to Pandora's oceans with breathtaking visuals.",
-            "age_restriction": 13,
-            "formats": [
-                "IMAX",
-                "IMAX 3D",
-                "Dolby Cinema"
-            ],
-            "genre": [
-                "Drama",
-                "Mystery"
-            ],
-            "duration": 162,
-            "release_date": "2007-01-08",
-            "language": [
-                "Italian",
-                "German"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=2LqzF5WauAw"
-        },
-        {
-            "id": 4,
-            "title": "The Dark Knight",
-            "description": "A vigilante fights crime in Gotham against the Joker.",
-            "age_restriction": 18,
-            "formats": [
-                "Dolby Cinema",
-                "IMAX 3D"
-            ],
-            "genre": [
-                "Adventure",
-                "Biography",
-                "Romance"
-            ],
-            "duration": 154,
-            "release_date": "2006-09-07",
-            "language": [
-                "Japanese"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/rAiYTfKGqDCRIIqoNMqPr6U5UO6.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
-        },
-        {
-            "id": 5,
-            "title": "Your Name",
-            "description": "A magical love story involving body-swapping teenagers.",
-            "age_restriction": 0,
-            "formats": [
-                "2D",
-                "3D"
-            ],
-            "genre": [
-                "Crime",
-                "Fantasy"
-            ],
-            "duration": 124,
-            "release_date": "2005-10-10",
-            "language": [
-                "Italian",
-                "Vietnamese"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0"
-        },
-        {
-            "id": 6,
-            "title": "Interstellar",
-            "description": "Explorers venture through a wormhole in space.",
-            "age_restriction": 7,
-            "formats": [
-                "2D"
-            ],
-            "genre": [
-                "Musical",
-                "Crime",
-                "Documentary"
-            ],
-            "duration": 155,
-            "release_date": "2009-12-24",
-            "language": [
-                "French",
-                "Hindi"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=d9MyW72ELq0"
-        },
-        {
-            "id": 7,
-            "title": "Avengers: Endgame",
-            "description": "Superheroes unite to defeat the ultimate villain.",
-            "age_restriction": 0,
-            "formats": [
-                "2D",
-                "3D"
-            ],
-            "genre": [
-                "Sci-Fi",
-                "Musical",
-                "Fantasy"
-            ],
-            "duration": 115,
-            "release_date": "2015-06-11",
-            "language": [
-                "Spanish",
-                "Vietnamese"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/q719jXXEzOoYaps6babgKnONONX.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0"
-        },
-        {
-            "id": 8,
-            "title": "Joker",
-            "description": "A descent into madness of a failed comedian.",
-            "age_restriction": 0,
-            "formats": [
-                "4DX"
-            ],
-            "genre": [
-                "Western",
-                "Comedy"
-            ],
-            "duration": 113,
-            "release_date": "2015-05-11",
-            "language": [
-                "Spanish",
-                "Korean"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0"
-        },
-        {
-            "id": 9,
-            "title": "The Godfather",
-            "description": "A mafia saga of power and betrayal.",
-            "age_restriction": 7,
-            "formats": [
-                "2D"
-            ],
-            "genre": [
-                "Adventure",
-                "War",
-                "Comedy"
-            ],
-            "duration": 119,
-            "release_date": "2017-03-18",
-            "language": [
-                "English",
-                "Vietnamese"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0"
-        },
-        {
-            "id": 10,
-            "title": "The Shawshank Redemption",
-            "description": "A wrongly convicted man fights for justice.",
-            "age_restriction": 0,
-            "formats": [
-                "4DX",
-                "Dolby Cinema"
-            ],
-            "genre": [
-                "Action",
-                "Crime",
-                "War"
-            ],
-            "duration": 125,
-            "release_date": "2023-05-15",
-            "language": [
-                "Chinese",
-                "Italian"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/q719jXXEzOoYaps6babgKnONONX.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=2LqzF5WauAw"
-        },
-        {
-            "id": 11,
-            "title": "Spirited Away",
-            "description": "A young girl navigates a spirit world.",
-            "age_restriction": 0,
-            "formats": [
-                "3D"
-            ],
-            "genre": [
-                "Fantasy",
-                "Thriller",
-                "Romance"
-            ],
-            "duration": 159,
-            "release_date": "2020-01-20",
-            "language": [
-                "Italian"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0"
-        },
-        {
-            "id": 12,
-            "title": "Titanic",
-            "description": "An epic romance aboard the Titanic.",
-            "age_restriction": 0,
-            "formats": [
-                "Dolby Cinema"
-            ],
-            "genre": [
-                "Action",
-                "Western"
-            ],
-            "duration": 143,
-            "release_date": "2006-03-12",
-            "language": [
-                "Vietnamese",
-                "Japanese"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0"
-        },
-        {
-            "id": 13,
-            "title": "The Matrix",
-            "description": "A hacker discovers the truth about reality.",
-            "age_restriction": 0,
-            "formats": [
-                "2D",
-                "3D"
-            ],
-            "genre": [
-                "Animation",
-                "Western"
-            ],
-            "duration": 125,
-            "release_date": "2002-07-10",
-            "language": [
-                "Hindi",
-                "German"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=2LqzF5WauAw"
-        },
-        {
-            "id": 14,
-            "title": "Forrest Gump",
-            "description": "A man with low IQ achieves incredible feats.",
-            "age_restriction": 13,
-            "formats": [
-                "Dolby Cinema",
-                "4DX",
-                "2D"
-            ],
-            "genre": [
-                "Mystery",
-                "Sci-Fi",
-                "Drama"
-            ],
-            "duration": 137,
-            "release_date": "2006-04-13",
-            "language": [
-                "Korean",
-                "Italian"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=2LqzF5WauAw"
-        },
-        {
-            "id": 15,
-            "title": "Gladiator",
-            "description": "A Roman general seeks revenge in the arena.",
-            "age_restriction": 7,
-            "formats": [
-                "IMAX 3D",
-                "IMAX"
-            ],
-            "genre": [
-                "Adventure",
-                "Animation"
-            ],
-            "duration": 104,
-            "release_date": "2010-04-19",
-            "language": [
-                "Italian",
-                "Hindi"
-            ],
-            "poster_url": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-            "trailer_url": "https://www.youtube.com/watch?v=5xH0HfJHsaY"
-        }
-    ], 
-    
-    "cinemas" :[
-        {
-            "id": 1,
-            "name": "Galaxy Cinema",
-            "location": "Đà Nẵng",
-            "phone": "+84 916515090",
-            "email": "contact@galaxycinema.com",
-            "description": "Galaxy Cinema là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
-        },
-        {
-            "id": 2,
-            "name": "CGV Cinemas",
-            "location": "Cần Thơ",
-            "phone": "+84 986500234",
-            "email": "contact@cgvcinemas.com",
-            "description": "CGV Cinemas là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
-        },
-        {
-            "id": 3,
-            "name": "Lotte Cinema",
-            "location": "TP Hồ Chí Minh",
-            "phone": "+84 962311348",
-            "email": "contact@lottecinema.com",
-            "description": "Lotte Cinema là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
-        },
-        {
-            "id": 4,
-            "name": "BHD Star Cineplex",
-            "location": "Hà Nội",
-            "phone": "+84 942996504",
-            "email": "contact@bhdstarcineplex.com",
-            "description": "BHD Star Cineplex là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
-        },
-        {
-            "id": 5,
-            "name": "Mega GS Cinemas",
-            "location": "Hải Phòng",
-            "phone": "+84 911290650",
-            "email": "contact@megagscinemas.com",
-            "description": "Mega GS Cinemas là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
-        }
-    ],
+  "showtimes": [
+    {
+      "id": 1,
+      "movie_id": 5,
+      "cinema_id": 4,
+      "start_time": "2025-04-19 20:30:00",
+      "audio_type": "Dubbed",
+      "hall": "Hall 5"
+    },
+    {
+      "id": 2,
+      "movie_id": 12,
+      "cinema_id": 5,
+      "start_time": "2025-12-09 17:30:00",
+      "audio_type": "Dubbed",
+      "hall": "Hall 4"
+    },
+    {
+      "id": 3,
+      "movie_id": 15,
+      "cinema_id": 2,
+      "start_time": "2025-05-02 16:00:00",
+      "audio_type": "Original",
+      "hall": "Hall 5"
+    },
+    {
+      "id": 4,
+      "movie_id": 3,
+      "cinema_id": 5,
+      "start_time": "2025-01-09 14:00:00",
+      "audio_type": "Dubbed",
+      "hall": "Hall 3"
+    },
+    {
+      "id": 5,
+      "movie_id": 14,
+      "cinema_id": 3,
+      "start_time": "2025-08-01 19:00:00",
+      "audio_type": "Dual Audio",
+      "hall": "Hall 1"
+    },
+    {
+      "id": 6,
+      "movie_id": 4,
+      "cinema_id": 5,
+      "start_time": "2025-06-03 12:00:00",
+      "audio_type": "Dubbed",
+      "hall": "Hall 4"
+    },
+    {
+      "id": 7,
+      "movie_id": 10,
+      "cinema_id": 2,
+      "start_time": "2025-07-19 13:30:00",
+      "audio_type": "Original",
+      "hall": "Hall 3"
+    },
+    {
+      "id": 8,
+      "movie_id": 4,
+      "cinema_id": 4,
+      "start_time": "2025-06-21 14:30:00",
+      "audio_type": "Dual Audio",
+      "hall": "Hall 2"
+    },
+    {
+      "id": 9,
+      "movie_id": 2,
+      "cinema_id": 4,
+      "start_time": "2025-10-11 20:00:00",
+      "audio_type": "Original",
+      "hall": "Hall 4"
+    },
+    {
+      "id": 10,
+      "movie_id": 3,
+      "cinema_id": 1,
+      "start_time": "2025-10-13 19:00:00",
+      "audio_type": "Dubbed",
+      "hall": "Hall 3"
+    },
+    {
+      "id": 11,
+      "movie_id": 6,
+      "cinema_id": 2,
+      "start_time": "2025-06-14 20:30:00",
+      "audio_type": "Dual Audio",
+      "hall": "Hall 1"
+    },
+    {
+      "id": 12,
+      "movie_id": 3,
+      "cinema_id": 1,
+      "start_time": "2025-03-07 12:00:00",
+      "audio_type": "Original",
+      "hall": "Hall 1"
+    },
+    {
+      "id": 13,
+      "movie_id": 1,
+      "cinema_id": 2,
+      "start_time": "2025-12-06 18:00:00",
+      "audio_type": "Original",
+      "hall": "Hall 2"
+    },
+    {
+      "id": 14,
+      "movie_id": 11,
+      "cinema_id": 3,
+      "start_time": "2025-05-05 15:30:00",
+      "audio_type": "Dubbed",
+      "hall": "Hall 2"
+    },
+    {
+      "id": 15,
+      "movie_id": 2,
+      "cinema_id": 3,
+      "start_time": "2025-11-17 13:30:00",
+      "audio_type": "Dual Audio",
+      "hall": "Hall 1"
+    },
+    {
+      "id": 16,
+      "movie_id": 7,
+      "cinema_id": 3,
+      "start_time": "2025-05-24 12:00:00",
+      "audio_type": "Dubbed",
+      "hall": "Hall 1"
+    },
+    {
+      "id": 17,
+      "movie_id": 13,
+      "cinema_id": 5,
+      "start_time": "2025-10-02 11:00:00",
+      "audio_type": "Dual Audio",
+      "hall": "Hall 5"
+    },
+    {
+      "id": 18,
+      "movie_id": 3,
+      "cinema_id": 1,
+      "start_time": "2025-09-24 19:30:00",
+      "audio_type": "Dual Audio",
+      "hall": "Hall 2"
+    },
+    {
+      "id": 19,
+      "movie_id": 3,
+      "cinema_id": 5,
+      "start_time": "2025-01-23 16:00:00",
+      "audio_type": "Dubbed",
+      "hall": "Hall 5"
+    },
+    {
+      "id": 20,
+      "movie_id": 4,
+      "cinema_id": 1,
+      "start_time": "2025-02-08 17:00:00",
+      "audio_type": "Dual Audio",
+      "hall": "Hall 4"
+    }
+  ],
 
-    "showtimes" : 
-    [
-        {
-            "id": 1,
-            "movie_id": 5,
-            "cinema_id": 4,
-            "start_time": "2025-04-19 20:30:00",
-            "audio_type": "Dubbed",
-            "hall": "Hall 5"
-        },
-        {
-            "id": 2,
-            "movie_id": 12,
-            "cinema_id": 5,
-            "start_time": "2025-12-09 17:30:00",
-            "audio_type": "Dubbed",
-            "hall": "Hall 4"
-        },
-        {
-            "id": 3,
-            "movie_id": 15,
-            "cinema_id": 2,
-            "start_time": "2025-05-02 16:00:00",
-            "audio_type": "Original",
-            "hall": "Hall 5"
-        },
-        {
-            "id": 4,
-            "movie_id": 3,
-            "cinema_id": 5,
-            "start_time": "2025-01-09 14:00:00",
-            "audio_type": "Dubbed",
-            "hall": "Hall 3"
-        },
-        {
-            "id": 5,
-            "movie_id": 14,
-            "cinema_id": 3,
-            "start_time": "2025-08-01 19:00:00",
-            "audio_type": "Dual Audio",
-            "hall": "Hall 1"
-        },
-        {
-            "id": 6,
-            "movie_id": 4,
-            "cinema_id": 5,
-            "start_time": "2025-06-03 12:00:00",
-            "audio_type": "Dubbed",
-            "hall": "Hall 4"
-        },
-        {
-            "id": 7,
-            "movie_id": 10,
-            "cinema_id": 2,
-            "start_time": "2025-07-19 13:30:00",
-            "audio_type": "Original",
-            "hall": "Hall 3"
-        },
-        {
-            "id": 8,
-            "movie_id": 4,
-            "cinema_id": 4,
-            "start_time": "2025-06-21 14:30:00",
-            "audio_type": "Dual Audio",
-            "hall": "Hall 2"
-        },
-        {
-            "id": 9,
-            "movie_id": 2,
-            "cinema_id": 4,
-            "start_time": "2025-10-11 20:00:00",
-            "audio_type": "Original",
-            "hall": "Hall 4"
-        },
-        {
-            "id": 10,
-            "movie_id": 3,
-            "cinema_id": 1,
-            "start_time": "2025-10-13 19:00:00",
-            "audio_type": "Dubbed",
-            "hall": "Hall 3"
-        },
-        {
-            "id": 11,
-            "movie_id": 6,
-            "cinema_id": 2,
-            "start_time": "2025-06-14 20:30:00",
-            "audio_type": "Dual Audio",
-            "hall": "Hall 1"
-        },
-        {
-            "id": 12,
-            "movie_id": 3,
-            "cinema_id": 1,
-            "start_time": "2025-03-07 12:00:00",
-            "audio_type": "Original",
-            "hall": "Hall 1"
-        },
-        {
-            "id": 13,
-            "movie_id": 1,
-            "cinema_id": 2,
-            "start_time": "2025-12-06 18:00:00",
-            "audio_type": "Original",
-            "hall": "Hall 2"
-        },
-        {
-            "id": 14,
-            "movie_id": 11,
-            "cinema_id": 3,
-            "start_time": "2025-05-05 15:30:00",
-            "audio_type": "Dubbed",
-            "hall": "Hall 2"
-        },
-        {
-            "id": 15,
-            "movie_id": 2,
-            "cinema_id": 3,
-            "start_time": "2025-11-17 13:30:00",
-            "audio_type": "Dual Audio",
-            "hall": "Hall 1"
-        },
-        {
-            "id": 16,
-            "movie_id": 7,
-            "cinema_id": 3,
-            "start_time": "2025-05-24 12:00:00",
-            "audio_type": "Dubbed",
-            "hall": "Hall 1"
-        },
-        {
-            "id": 17,
-            "movie_id": 13,
-            "cinema_id": 5,
-            "start_time": "2025-10-02 11:00:00",
-            "audio_type": "Dual Audio",
-            "hall": "Hall 5"
-        },
-        {
-            "id": 18,
-            "movie_id": 3,
-            "cinema_id": 1,
-            "start_time": "2025-09-24 19:30:00",
-            "audio_type": "Dual Audio",
-            "hall": "Hall 2"
-        },
-        {
-            "id": 19,
-            "movie_id": 3,
-            "cinema_id": 5,
-            "start_time": "2025-01-23 16:00:00",
-            "audio_type": "Dubbed",
-            "hall": "Hall 5"
-        },
-        {
-            "id": 20,
-            "movie_id": 4,
-            "cinema_id": 1,
-            "start_time": "2025-02-08 17:00:00",
-            "audio_type": "Dual Audio",
-            "hall": "Hall 4"
-        }
-    ],
+  "foods": [
+    {
+      "id": 1,
+      "name": "Popcorn",
+      "price": 10000,
+      "description": "Popcorn tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
+      "image_url": "https://example.com/images/popcorn.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Nachos",
+      "price": 20000,
+      "description": "Nachos tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
+      "image_url": "https://example.com/images/nachos.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Hot Dog",
+      "price": 30000,
+      "description": "Hot Dog tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
+      "image_url": "https://example.com/images/hot_dog.jpg"
+    },
+    {
+      "id": 4,
+      "name": "French Fries",
+      "price": 40000,
+      "description": "French Fries tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
+      "image_url": "https://example.com/images/french_fries.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Soft Drink",
+      "price": 50000,
+      "description": "Soft Drink tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
+      "image_url": "https://example.com/images/soft_drink.jpg"
+    }
+  ],
 
-    "foods" : [
-        {
-            "id": 1,
-            "name": "Popcorn",
-            "price": 10000,
-            "description": "Popcorn tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
-            "image_url": "https://example.com/images/popcorn.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Nachos",
-            "price": 20000,
-            "description": "Nachos tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
-            "image_url": "https://example.com/images/nachos.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Hot Dog",
-            "price": 30000,
-            "description": "Hot Dog tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
-            "image_url": "https://example.com/images/hot_dog.jpg"
-        },
-        {
-            "id": 4,
-            "name": "French Fries",
-            "price": 40000,
-            "description": "French Fries tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
-            "image_url": "https://example.com/images/french_fries.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Soft Drink",
-            "price": 50000,
-            "description": "Soft Drink tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
-            "image_url": "https://example.com/images/soft_drink.jpg"
-        }
-    ],
+  "promotions": [
+    {
+      "id": 1,
+      "code": "PROMO1169",
+      "discount_percent": 20,
+      "total_amount": 92892,
+      "min_order": 269575
+    },
+    {
+      "id": 2,
+      "code": "PROMO2218",
+      "discount_percent": 25,
+      "total_amount": 413429,
+      "min_order": 236096
+    },
+    {
+      "id": 3,
+      "code": "PROMO3824",
+      "discount_percent": 20,
+      "total_amount": 280897,
+      "min_order": 273462
+    },
+    {
+      "id": 4,
+      "code": "PROMO4118",
+      "discount_percent": 10,
+      "total_amount": 130762,
+      "min_order": 183466
+    },
+    {
+      "id": 5,
+      "code": "PROMO5570",
+      "discount_percent": 15,
+      "total_amount": 240573,
+      "min_order": 202582
+    }
+  ],
 
-    "promotions" : [
-        {
-            "id": 1,
-            "code": "PROMO1169",
-            "discount_percent": 20,
-            "total_amount": 92892,
-            "min_order": 269575
-        },
-        {
-            "id": 2,
-            "code": "PROMO2218",
-            "discount_percent": 25,
-            "total_amount": 413429,
-            "min_order": 236096
-        },
-        {
-            "id": 3,
-            "code": "PROMO3824",
-            "discount_percent": 20,
-            "total_amount": 280897,
-            "min_order": 273462
-        },
-        {
-            "id": 4,
-            "code": "PROMO4118",
-            "discount_percent": 10,
-            "total_amount": 130762,
-            "min_order": 183466
-        },
-        {
-            "id": 5,
-            "code": "PROMO5570",
-            "discount_percent": 15,
-            "total_amount": 240573,
-            "min_order": 202582
-        }
-    ], 
-
-    "posts" :[
-        {
-            "id": 1,
-            "user_id": 4,
-            "title": "Top 10 bộ phim bom tấn năm nay",
-            "content": "Danh sách những bộ phim không thể bỏ lỡ trong năm nay với nội dung hấp dẫn và diễn xuất ấn tượng.",
-            "image_url": "https://example.com/images/post_1.jpg"
-        },
-        {
-            "id": 2,
-            "user_id": 5,
-            "title": "Review phim kinh dị hot nhất tháng",
-            "content": "Một cái nhìn chi tiết về bộ phim kinh dị đang gây sốt, từ cốt truyện đến diễn xuất.",
-            "image_url": "https://example.com/images/post_2.jpg"
-        },
-        {
-            "id": 3,
-            "user_id": 1,
-            "title": "Những bộ phim hay nhất dành cho gia đình",
-            "content": "Gợi ý những bộ phim phù hợp để xem cùng gia đình vào dịp cuối tuần.",
-            "image_url": "https://example.com/images/post_3.jpg"
-        },
-        {
-            "id": 4,
-            "user_id": 1,
-            "title": "Phim hoạt hình đáng xem nhất năm",
-            "content": "Tổng hợp những bộ phim hoạt hình xuất sắc với hình ảnh đẹp và nội dung ý nghĩa.",
-            "image_url": "https://example.com/images/post_4.jpg"
-        },
-        {
-            "id": 5,
-            "user_id": 6,
-            "title": "Tại sao bạn nên xem phim IMAX?",
-            "content": "IMAX có gì đặc biệt so với các định dạng chiếu phim khác? Hãy cùng khám phá.",
-            "image_url": "https://example.com/images/post_5.jpg"
-        },
-        {
-            "id": 6,
-            "user_id": 4,
-            "title": "Cách chọn suất chiếu phù hợp",
-            "content": "Làm thế nào để chọn suất chiếu phù hợp với lịch trình của bạn? Những mẹo hay dành cho bạn.",
-            "image_url": "https://example.com/images/post_6.jpg"
-        },
-        {
-            "id": 7,
-            "user_id": 10,
-            "title": "Những cảnh quay đẹp nhất trong điện ảnh",
-            "content": "Những bộ phim có cảnh quay đẹp nhất mọi thời đại, từ thiên nhiên hùng vĩ đến góc quay ấn tượng.",
-            "image_url": "https://example.com/images/post_7.jpg"
-        },
-        {
-            "id": 8,
-            "user_id": 2,
-            "title": "Phim chiếu rạp đáng mong chờ nhất",
-            "content": "Danh sách những bộ phim sắp ra mắt mà bạn nên để mắt tới.",
-            "image_url": "https://example.com/images/post_8.jpg"
-        },
-        {
-            "id": 9,
-            "user_id": 7,
-            "title": "Lịch sử điện ảnh qua từng thập kỷ",
-            "content": "Khám phá sự phát triển của điện ảnh từ thập kỷ này sang thập kỷ khác.",
-            "image_url": "https://example.com/images/post_9.jpg"
-        },
-        {
-            "id": 10,
-            "user_id": 3,
-            "title": "Lợi ích của việc xem phim tại rạp",
-            "content": "Xem phim tại rạp mang lại những trải nghiệm gì mà bạn không thể có được khi xem tại nhà?",
-            "image_url": "https://example.com/images/post_10.jpg"
-        }
-    ]
-
-  }
+  "posts": [
+    {
+      "id": 1,
+      "user_id": 4,
+      "title": "Top 10 bộ phim bom tấn năm nay",
+      "content": "Danh sách những bộ phim không thể bỏ lỡ trong năm nay với nội dung hấp dẫn và diễn xuất ấn tượng.",
+      "image_url": "https://example.com/images/post_1.jpg"
+    },
+    {
+      "id": 2,
+      "user_id": 5,
+      "title": "Review phim kinh dị hot nhất tháng",
+      "content": "Một cái nhìn chi tiết về bộ phim kinh dị đang gây sốt, từ cốt truyện đến diễn xuất.",
+      "image_url": "https://example.com/images/post_2.jpg"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "title": "Những bộ phim hay nhất dành cho gia đình",
+      "content": "Gợi ý những bộ phim phù hợp để xem cùng gia đình vào dịp cuối tuần.",
+      "image_url": "https://example.com/images/post_3.jpg"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "title": "Phim hoạt hình đáng xem nhất năm",
+      "content": "Tổng hợp những bộ phim hoạt hình xuất sắc với hình ảnh đẹp và nội dung ý nghĩa.",
+      "image_url": "https://example.com/images/post_4.jpg"
+    },
+    {
+      "id": 5,
+      "user_id": 6,
+      "title": "Tại sao bạn nên xem phim IMAX?",
+      "content": "IMAX có gì đặc biệt so với các định dạng chiếu phim khác? Hãy cùng khám phá.",
+      "image_url": "https://example.com/images/post_5.jpg"
+    },
+    {
+      "id": 6,
+      "user_id": 4,
+      "title": "Cách chọn suất chiếu phù hợp",
+      "content": "Làm thế nào để chọn suất chiếu phù hợp với lịch trình của bạn? Những mẹo hay dành cho bạn.",
+      "image_url": "https://example.com/images/post_6.jpg"
+    },
+    {
+      "id": 7,
+      "user_id": 10,
+      "title": "Những cảnh quay đẹp nhất trong điện ảnh",
+      "content": "Những bộ phim có cảnh quay đẹp nhất mọi thời đại, từ thiên nhiên hùng vĩ đến góc quay ấn tượng.",
+      "image_url": "https://example.com/images/post_7.jpg"
+    },
+    {
+      "id": 8,
+      "user_id": 2,
+      "title": "Phim chiếu rạp đáng mong chờ nhất",
+      "content": "Danh sách những bộ phim sắp ra mắt mà bạn nên để mắt tới.",
+      "image_url": "https://example.com/images/post_8.jpg"
+    },
+    {
+      "id": 9,
+      "user_id": 7,
+      "title": "Lịch sử điện ảnh qua từng thập kỷ",
+      "content": "Khám phá sự phát triển của điện ảnh từ thập kỷ này sang thập kỷ khác.",
+      "image_url": "https://example.com/images/post_9.jpg"
+    },
+    {
+      "id": 10,
+      "user_id": 3,
+      "title": "Lợi ích của việc xem phim tại rạp",
+      "content": "Xem phim tại rạp mang lại những trải nghiệm gì mà bạn không thể có được khi xem tại nhà?",
+      "image_url": "https://example.com/images/post_10.jpg"
+    }
+  ]
+}
