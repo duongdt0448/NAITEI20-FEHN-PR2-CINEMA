@@ -5,7 +5,8 @@
         "location": "Đà Nẵng",
         "phone": "+84 916515090",
         "email": "contact@galaxycinema.com",
-        "description": "Galaxy Cinema là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+        "description": "Galaxy Cinema là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn.",
+        "img_url": "https://images2.thanhnien.vn/528068263637045248/2023/12/18/galaxy-nguyen-du-2-1702900764947995112346.jpg"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "location": "Cần Thơ",
         "phone": "+84 986500234",
         "email": "contact@cgvcinemas.com",
-        "description": "CGV Cinemas là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+        "description": "CGV Cinemas là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn.",
+        "img_url": "https://top10vietnam.vn/wp-content/uploads/2020/01/CGV-cinema.jpg"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "location": "TP Hồ Chí Minh",
         "phone": "+84 962311348",
         "email": "contact@lottecinema.com",
-        "description": "Lotte Cinema là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+        "description": "Lotte Cinema là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn.",
+        "img_url": "https://play-lh.googleusercontent.com/8dBjvSzJuBW2BLPCbEyOYcJV_9OF02lBdNnGp8Ms1j6G-d9DYZUfBGUTMKBJsSQFmiM=w526-h296-rw"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "location": "Hà Nội",
         "phone": "+84 942996504",
         "email": "contact@bhdstarcineplex.com",
-        "description": "BHD Star Cineplex là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+        "description": "BHD Star Cineplex là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn.",
+        "img_url": "https://statics.vincom.com.vn/vincom-ho/image2-1671509424.jpg"
     },
     {
         "id": 5,
@@ -37,6 +41,7 @@
         "location": "Hải Phòng",
         "phone": "+84 911290650",
         "email": "contact@megagscinemas.com",
-        "description": "Mega GS Cinemas là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn."
+        "description": "Mega GS Cinemas là một trong những rạp chiếu phim hiện đại, phục vụ đa dạng các thể loại phim bom tấn.",
+        "img_url": "https://stcd02265632633.cloud.edgevnpay.vn/website-vnpay-public/fill/2023/12/0192525sziqt1701931274622.png"
     }
 ]
