@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "code": "PROMO1169",
+        "discount_percent": 20,
+        "total_amount": 92892,
+        "min_order": 269575
+    },
+    {
+        "id": 2,
+        "code": "PROMO2218",
+        "discount_percent": 25,
+        "total_amount": 413429,
+        "min_order": 236096
+    },
+    {
+        "id": 3,
+        "code": "PROMO3824",
+        "discount_percent": 20,
+        "total_amount": 280897,
+        "min_order": 273462
+    },
+    {
+        "id": 4,
+        "code": "PROMO4118",
+        "discount_percent": 10,
+        "total_amount": 130762,
+        "min_order": 183466
+    },
+    {
+        "id": 5,
+        "code": "PROMO5570",
+        "discount_percent": 15,
+        "total_amount": 240573,
+        "min_order": 202582
+    }
+]

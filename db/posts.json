@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "user_id": 4,
+        "title": "Top 10 bộ phim bom tấn năm nay",
+        "content": "Danh sách những bộ phim không thể bỏ lỡ trong năm nay với nội dung hấp dẫn và diễn xuất ấn tượng.",
+        "image_url": "https://example.com/images/post_1.jpg"
+    },
+    {
+        "id": 2,
+        "user_id": 5,
+        "title": "Review phim kinh dị hot nhất tháng",
+        "content": "Một cái nhìn chi tiết về bộ phim kinh dị đang gây sốt, từ cốt truyện đến diễn xuất.",
+        "image_url": "https://example.com/images/post_2.jpg"
+    },
+    {
+        "id": 3,
+        "user_id": 1,
+        "title": "Những bộ phim hay nhất dành cho gia đình",
+        "content": "Gợi ý những bộ phim phù hợp để xem cùng gia đình vào dịp cuối tuần.",
+        "image_url": "https://example.com/images/post_3.jpg"
+    },
+    {
+        "id": 4,
+        "user_id": 1,
+        "title": "Phim hoạt hình đáng xem nhất năm",
+        "content": "Tổng hợp những bộ phim hoạt hình xuất sắc với hình ảnh đẹp và nội dung ý nghĩa.",
+        "image_url": "https://example.com/images/post_4.jpg"
+    },
+    {
+        "id": 5,
+        "user_id": 6,
+        "title": "Tại sao bạn nên xem phim IMAX?",
+        "content": "IMAX có gì đặc biệt so với các định dạng chiếu phim khác? Hãy cùng khám phá.",
+        "image_url": "https://example.com/images/post_5.jpg"
+    },
+    {
+        "id": 6,
+        "user_id": 4,
+        "title": "Cách chọn suất chiếu phù hợp",
+        "content": "Làm thế nào để chọn suất chiếu phù hợp với lịch trình của bạn? Những mẹo hay dành cho bạn.",
+        "image_url": "https://example.com/images/post_6.jpg"
+    },
+    {
+        "id": 7,
+        "user_id": 10,
+        "title": "Những cảnh quay đẹp nhất trong điện ảnh",
+        "content": "Những bộ phim có cảnh quay đẹp nhất mọi thời đại, từ thiên nhiên hùng vĩ đến góc quay ấn tượng.",
+        "image_url": "https://example.com/images/post_7.jpg"
+    },
+    {
+        "id": 8,
+        "user_id": 2,
+        "title": "Phim chiếu rạp đáng mong chờ nhất",
+        "content": "Danh sách những bộ phim sắp ra mắt mà bạn nên để mắt tới.",
+        "image_url": "https://example.com/images/post_8.jpg"
+    },
+    {
+        "id": 9,
+        "user_id": 7,
+        "title": "Lịch sử điện ảnh qua từng thập kỷ",
+        "content": "Khám phá sự phát triển của điện ảnh từ thập kỷ này sang thập kỷ khác.",
+        "image_url": "https://example.com/images/post_9.jpg"
+    },
+    {
+        "id": 10,
+        "user_id": 3,
+        "title": "Lợi ích của việc xem phim tại rạp",
+        "content": "Xem phim tại rạp mang lại những trải nghiệm gì mà bạn không thể có được khi xem tại nhà?",
+        "image_url": "https://example.com/images/post_10.jpg"
+    }
+]
