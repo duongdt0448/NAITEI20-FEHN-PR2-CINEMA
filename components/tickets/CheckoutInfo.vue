@@ -1,36 +1,30 @@
 <script setup>
-import { defineProps, computed, ref, onMounted, onBeforeUnmount } from "vue";
+import { defineProps, computed, onMounted } from "vue";
+import { useRouter, useRoute } from "vue-router";
 import { formatCurrency } from "~/utils/format";
+import { useCheckoutStore } from "~/stores/checkout";
 
+const checkout = useCheckoutStore();
 const props = defineProps({
-  selectedSeats: {
-    type: Array,
-    default: () => [],
-  },
-  selectedSeatTypes: {
-    type: Object,
-    default: () => ({}),
-  },
   theaterData: {
     type: Object,
-    default: () => ({
-      name: "BHD Star Pham Ngoc Thach",
-      screen: "Screen 7",
-      date: "21/3/2025",
-      showtime: "13h35",
-    }),
   },
   movieData: {
     type: Object,
   },
   pricing: {
     type: Object,
-    default: () => ({
-      standard: 90000,
-      vip: 105000,
-      "first-class": 125000,
-    }),
   },
+});
+
+const emit = defineEmits(["continue"]);
+const router = useRouter();
+const route = useRoute();
+const currentStep = route.path.includes("/3") ? 3 : 2;
+
+// Start the timer in the checkout store
+onMounted(() => {
+  checkout.startTimer();
 });
 
 // Group seats by their type
@@ -41,8 +35,8 @@ const seatsByType = computed(() => {
     "first-class": [],
   };
 
-  props.selectedSeats.forEach((seatId) => {
-    const type = props.selectedSeatTypes[seatId] || "standard";
+  checkout.selectedSeats.forEach((seatId) => {
+    const type = checkout.selectedSeatTypes[seatId] || "standard";
     result[type].push(seatId);
   });
 
@@ -73,36 +67,7 @@ const subtotalsByType = computed(() => {
 
 // Calculate total price
 const totalAmount = computed(() => {
-  return Object.values(subtotalsByType.value).reduce(
-    (sum, amount) => sum + amount,
-    0
-  );
-});
-
-// Countdown timer implementation - starting from 8 minutes (480 seconds)
-const remainingSeconds = ref(8 * 60); // 8 minutes in seconds
-let countdownInterval = null;
-
-const formattedRemainingTime = computed(() => {
-  const minutes = Math.floor(remainingSeconds.value / 60);
-  const seconds = remainingSeconds.value % 60;
-  return `${minutes} phút, ${seconds < 10 ? "0" : ""}${seconds} giây`;
-});
-
-onMounted(() => {
-  countdownInterval = setInterval(() => {
-    if (remainingSeconds.value > 0) {
-      remainingSeconds.value--;
-    } else {
-      clearInterval(countdownInterval);
-    }
-  }, 1000);
-});
-
-onBeforeUnmount(() => {
-  if (countdownInterval) {
-    clearInterval(countdownInterval);
-  }
+  return checkout.orderTotal;
 });
 
 // Format seat type for display
@@ -116,6 +81,22 @@ function formatSeatType(type) {
       return "FC";
     default:
       return type;
+  }
+}
+
+function handleContinueClick() {
+  emit("continue");
+}
+
+function handleBackClick() {
+  if (currentStep === 3) {
+    // Clear food selections
+    checkout.setSelectedFoods([]);
+    router.push(`/tickets/${route.params.movieId}/2`);
+  } else {
+    // Clear seat selections
+    checkout.setSelectedSeats([], {});
+    router.push(`/tickets/${route.params.movieId}/1`);
   }
 }
 </script>
@@ -155,12 +136,15 @@ function formatSeatType(type) {
         </span>
       </div>
 
-      <table v-if="selectedSeats.length > 0" class="w-full text-sm mt-4">
+      <table
+        v-if="checkout.selectedSeats.length > 0"
+        class="w-full text-sm mt-4"
+      >
         <tbody>
           <template v-for="(seats, type) in seatsByType" :key="type">
             <tr
               v-if="seats.length > 0"
-              class="border-b border-gray-50 last:border-0"
+              class="border-b border-gray-50 last:border-0 text-gray-700"
             >
               <td class="font-medium py-2">
                 <span class="font-bold">{{ seats.length }}</span> x
@@ -177,22 +161,52 @@ function formatSeatType(type) {
           </template>
         </tbody>
       </table>
-      <hr class="-mx-6 border-gray-200 my-4" />
-      <table v-if="selectedSeats.length > 0" class="w-full text-sm">
+
+      <hr
+        v-if="checkout.selectedFoods.length > 0"
+        class="-mx-6 border-gray-200 my-4"
+      />
+      <h5 v-if="checkout.selectedFoods.length > 0" class="font-bold mb-2">
+        Food & Beverage
+      </h5>
+      <table
+        v-if="checkout.selectedFoods.length > 0"
+        class="w-full text-sm mt-1"
+      >
         <tbody>
-          <tr>
+          <tr
+            v-for="item in checkout.selectedFoods"
+            :key="item.id"
+            class="border-b border-gray-50 last:border-0 text-gray-700"
+          >
+            <td class="font-medium py-2">
+              <span class="font-bold">{{ item.quantity }}</span> x
+              <span>{{ item.name }}</span>
+            </td>
+            <td class="text-right font-bold py-2">
+              {{ formatCurrency(item.price * item.quantity) }}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr class="-mx-6 border-gray-200 my-4" />
+      <table v-if="checkout.selectedSeats.length > 0" class="w-full text-sm">
+        <tbody>
+          <tr class="text-2xl text-gray-700">
             <td class="font-medium">Tổng tiền</td>
             <td class="text-right font-bold">
-              {{ formatCurrency(totalAmount) }}
+              {{ formatCurrency(checkout.orderTotal) }}
             </td>
           </tr>
         </tbody>
       </table>
       <div class="text-center mt-5">
         <Button
-          v-if="selectedSeats.length > 0"
-          label="Chọn đồ ăn (2/4)"
+          v-if="checkout.selectedSeats.length > 0"
+          :label="currentStep === 2 ? 'Chọn đồ ăn (2/4)' : 'Thanh toán (3/4)'"
           class="w-full font-bold uppercase"
+          @click="handleContinueClick"
         />
         <Button
           v-else
@@ -202,16 +216,18 @@ function formatSeatType(type) {
           class="w-full"
         />
         <div class="my-2">
-          <a href="#" class="text-primary">← Trở lại</a>
+          <a href="#" @click.prevent="handleBackClick" class="text-primary"
+            >← Trở lại</a
+          >
         </div>
-        <span class="text-gray-700 text-sm"
-          >Còn lại
+        <span class="text-gray-700 text-sm">
+          Còn lại
           <span
             class="font-semibold"
-            :class="{ 'text-red-500': remainingSeconds < 60 }"
-            >{{ formattedRemainingTime }}</span
-          ></span
-        >
+            :class="{ 'text-red-500': checkout.remainingSeconds < 60 }"
+            >{{ checkout.formattedRemainingTime }}</span
+          >
+        </span>
       </div>
     </div>
   </div>

@@ -1,3 +1,5 @@
+import { defineNuxtConfig } from "nuxt/config";
+
 import tailwindcss from "@tailwindcss/vite";
 
 import CustomPreset from "./primevue-preset";
@@ -10,6 +12,7 @@ export default defineNuxtConfig({
     "@fortawesome/fontawesome-free/css/all.min.css",
   ],
   modules: ["@primevue/nuxt-module"],
+  plugins: ["~/plugins/timer"],
   primevue: {
     options: {
       theme: {
