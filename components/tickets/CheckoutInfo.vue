@@ -15,13 +15,21 @@ const props = defineProps({
   pricing: {
     type: Object,
   },
+  hasSelectedPaymentMethod: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const emit = defineEmits(["continue"]);
 const router = useRouter();
 const route = useRoute();
-const currentStep = route.path.includes("/3") ? 3 : 2;
-
+const termsAccepted = ref(false);
+const currentStep = route.path.includes("/4")
+  ? 4
+  : route.path.includes("/3")
+  ? 3
+  : 2;
 // Start the timer in the checkout store
 onMounted(() => {
   checkout.startTimer();
@@ -65,9 +73,11 @@ const subtotalsByType = computed(() => {
   return result;
 });
 
-// Calculate total price
-const totalAmount = computed(() => {
-  return checkout.orderTotal;
+const isPaymentButtonDisabled = computed(() => {
+  if (currentStep === 4) {
+    return !termsAccepted || !props.hasSelectedPaymentMethod;
+  }
+  return false;
 });
 
 // Format seat type for display
@@ -89,7 +99,9 @@ function handleContinueClick() {
 }
 
 function handleBackClick() {
-  if (currentStep === 3) {
+  if (currentStep === 4) {
+    router.push(`/tickets/${route.params.movieId}/3`);
+  } else if (currentStep === 3) {
     // Clear food selections
     checkout.setSelectedFoods([]);
     router.push(`/tickets/${route.params.movieId}/2`);
@@ -202,11 +214,38 @@ function handleBackClick() {
         </tbody>
       </table>
       <div class="text-center mt-5">
+        <div v-if="currentStep === 4" class="flex items-center mb-4 text-left">
+          <input
+            type="checkbox"
+            id="acceptTerms"
+            v-model="termsAccepted"
+            class="w-4 h-4 mr-2 accent-primary"
+          />
+          <label for="acceptTerms" class="text-gray-700 text-sm">
+            Tôi đã đọc và đồng ý với
+            <a
+              href="/dieu-khoan-thanh-toan"
+              target="_blank"
+              rel="noopener"
+              class="text-primary font-bold underline"
+            >
+              Điều khoản thanh toán</a
+            >.
+          </label>
+        </div>
+
         <Button
           v-if="checkout.selectedSeats.length > 0"
-          :label="currentStep === 2 ? 'Chọn đồ ăn (2/4)' : 'Thanh toán (3/4)'"
+          :label="
+            currentStep === 2
+              ? 'Chọn đồ ăn (2/4)'
+              : currentStep === 3
+              ? 'Thanh toán (3/4)'
+              : 'Thanh toán (4/4)'
+          "
           class="w-full font-bold uppercase"
           @click="handleContinueClick"
+          :disabled="isPaymentButtonDisabled"
         />
         <Button
           v-else

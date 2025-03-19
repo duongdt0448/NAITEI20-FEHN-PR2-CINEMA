@@ -209,6 +209,10 @@ const seatMap = {
   ],
 };
 
+onMounted(() => {
+  fetchMovieData();
+});
+
 async function fetchMovieData() {
   isLoading.value = true;
   try {
@@ -234,12 +238,6 @@ function updateSeats(seats, types) {
 function goToFoodSelection() {
   router.push(`/tickets/${movieId}/3`);
 }
-
-onMounted(() => {
-  fetchMovieData();
-});
-
-onMounted(fetchMovieData);
 </script>
 
 <template>

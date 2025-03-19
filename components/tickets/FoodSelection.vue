@@ -1,5 +1,5 @@
 <template>
-  <div class="py-4 px-6 mr-8 bg-white rounded-2xl border border-gray-200">
+  <div class="h-fit py-4 px-6 mr-8 bg-white rounded-2xl border border-gray-200">
     <div class="text-center">
       <div class="tab-buttons">
         <a href="#" class="selected font-bold text-lg">Concession</a>
