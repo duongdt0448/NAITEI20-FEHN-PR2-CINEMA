@@ -12,7 +12,7 @@
         "duration": 148,
         "release_date": "2010-07-16",
         "language": ["Phụ đề", "Lồng tiếng"],
-        "poster_url": "https://flhsnavigator.com/wp-content/uploads/2021/10/url-4.jpeg?w=691",
+        "image": "/movies/forbidden-fairytale.jpg",
         "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
     },
     {
@@ -28,7 +28,7 @@
         "duration": 132,
         "release_date": "2019-05-30",
         "language": ["Phụ đề", "Lồng tiếng"],
-        "poster_url": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "image": "/movies/forbidden-fairytale.jpg",
         "trailer_url": "https://www.youtube.com/watch?v=xU47nhruN-Q"
     },
     {
@@ -44,7 +44,7 @@
         "duration": 192,
         "release_date": "2022-12-16",
         "language": ["Phụ đề", "Lồng tiếng"],
-        "poster_url": "https://image.tmdb.org/t/p/original/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+        "image": "/movies/you-are-the-apple.jpg",
         "trailer_url": "https://www.youtube.com/watch?v=2LqzF5WauAw"
     },
     {
@@ -60,7 +60,7 @@
         "duration": 152,
         "release_date": "2008-07-18",
         "language": ["Phụ đề", "Lồng tiếng"],
-        "poster_url": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "image": "/movies/you-are-the-apple.jpg",
         "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
     },
     {
@@ -76,7 +76,7 @@
         "duration": 107,
         "release_date": "2016-08-26",
         "language": ["Phụ đề", "Lồng tiếng"],
-        "poster_url": "https://photo.znews.vn/w660/Uploaded/xbhunku/2016_10_07/hmjo9xzagbxbxkigxo1v.jpg",
+        "image": "/movies/you-are-the-apple.jpg",
         "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0"
     },
     {
@@ -92,7 +92,7 @@
         "duration": 169,
         "release_date": "2014-11-07",
         "language": ["Phụ đề"],
-        "poster_url": "https://play-lh.googleusercontent.com/EqGDMzdQhfV6D-X1-H0f5X6sz-iyk7ofC1PdbohQHxkh-Uxse4VqvIVXXD9iSxTCvut2=w240-h480-rw",
+        "image": "/movies/you-are-the-apple.jpg",
         "trailer_url": "https://www.youtube.com/watch?v=d9MyW72ELq0"
     },
     {
@@ -108,7 +108,7 @@
         "duration": 175,
         "release_date": "1972-03-24",
         "language": ["Phụ đề", "Lồng tiếng"],
-        "poster_url": "https://image.tmdb.org/t/p/original/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+        "image": "/movies/you-are-the-apple.jpg",
         "trailer_url": "https://www.youtube.com/watch?v=sY1S34973zA"
     },
     {
@@ -124,7 +124,7 @@
         "duration": 142,
         "release_date": "1994-07-06",
         "language": ["Phụ đề", "Lồng tiếng"],
-        "poster_url": "https://image.tmdb.org/t/p/original/h5J4W4veyxMXDMjeNxZI46TsHOb.jpg",
+        "image": "/movies/you-are-the-apple.jpg",
         "trailer_url": "https://www.youtube.com/watch?v=bLvqoHBptjg"
     },
     {
@@ -140,7 +140,7 @@
         "duration": 195,
         "release_date": "1997-12-19",
         "language": ["Phụ đề", "Lồng tiếng"],
-        "poster_url": "https://play-lh.googleusercontent.com/560-H8NVZRHk00g3RltRun4IGB-Ndl0I0iKy33D7EQ0cRRwH78-c46s90lZ1ho_F1so=w240-h480-rw",
+        "image": "/movies/you-are-the-apple.jpg",
         "trailer_url": "https://www.youtube.com/watch?v=kVrqfYjkTdQ"
     },
     {
@@ -156,7 +156,7 @@
         "duration": 136,
         "release_date": "1999-03-31",
         "language": ["Phụ đề"],
-        "poster_url": "https://image.tmdb.org/t/p/original/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+        "image": "/movies/you-are-the-apple.jpg",
         "trailer_url": "https://www.youtube.com/watch?v=vKQi3bBA1y8"
     },
     {
@@ -172,7 +172,7 @@
         "duration": 125,
         "release_date": "2001-07-20",
         "language": ["Lồng tiếng"],
-        "poster_url": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/1800x/71252117777b696995f01934522c402d/s/p/spirited-away---poster-01.jpg",
+        "image": "/movies/you-are-the-apple.jpg",
         "trailer_url": "https://www.youtube.com/watch?v=ByXuk9QqQkk"
     }
 ]
