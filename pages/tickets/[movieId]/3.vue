@@ -80,7 +80,7 @@ function goToPayment() {
 
   <template v-else-if="checkout.movieData">
     <MoviesCardLg :movie="checkout.movieData" />
-    <div class="flex flex-col md:flex-row justify-center my-10">
+    <div class="flex flex-col md:flex-row justify-center w-full my-10">
       <TicketsFoodSelection class="flex-2/3" :foods="foods" />
       <TicketsCheckoutInfo
         class="flex-1/3"

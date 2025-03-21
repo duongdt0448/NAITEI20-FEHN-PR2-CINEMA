@@ -1,10 +1,12 @@
 <template>
-  <div class="carousel-container1">
+  <div class="carousel-container2">
     <Carousel v-bind="carouselConfig">
-      <Slide v-for="(card, index) in cards" :key="index">
+      <Slide v-for="(card, index) in promotions" :key="index">
         <Combo :card="card" />
       </Slide>
+
       <template #addons>
+        <!-- Nút Prev / Next có icon -->
         <Navigation>
           <template #prev>
             <span class="custom-prev">❮</span>
@@ -13,50 +15,34 @@
             <span class="custom-next">❯</span>
           </template>
         </Navigation>
+        <!-- Pagination được chỉnh sửa -->
         <Pagination />
       </template>
     </Carousel>
   </div>
 </template>
 
-<script>
-import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
+<script setup>
 import "vue3-carousel/dist/carousel.css";
+import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 import Combo from "../Combo.vue";
-import promotions from '@/db/promotions.json';
-export default {
-  components: {
-    Carousel,
-    Slide,
-    Pagination,
-    Navigation,
-    Combo,
-  },
-  data() {
-    return {
-      carouselConfig: {
-        itemsToShow: 3,
-        wrapAround: true,
-        autoplay: false,
-        autoplaySpeed: 3000,
-        transition: 500,
-      },
+import promotions from "@/db/promotions.json";
 
-      cards:  promotions,
-    };
-  },
+const carouselConfig = {
+  itemsToShow: 3,
+  wrapAround: true,
+  autoplay: false,
+  autoplaySpeed: 3000,
+  transition: 500,
 };
 </script>
 
 <style>
-
-.carousel-container1 {
-
+.carousel-container2 {
   width: 100%;
-  margin: auto;
-  max-width: 1355px;
+  max-width: 1355px; /* Đảm bảo có max-width để không bị nhảy */
+  margin: 0px;
 }
-
 
 .carousel__pagination {
   position: relative;
@@ -66,8 +52,8 @@ export default {
   display: flex;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 50px;
 }
-
 
 .carousel__pagination-button {
   width: 12px;
@@ -85,8 +71,6 @@ export default {
   background-color: #58b947 !important;
   transform: scale(1.3);
 }
-
-
 
 .carousel__prev,
 .carousel__next {
@@ -123,5 +107,4 @@ export default {
   font-weight: bold;
   padding: 5px;
 }
-
 </style>

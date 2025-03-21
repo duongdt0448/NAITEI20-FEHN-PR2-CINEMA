@@ -1,10 +1,9 @@
 <template>
-  <div class="carousel-container">
+  <div class="carousel-container1">
     <Carousel v-bind="carouselConfig">
-      <Slide v-for="(movie, index) in movies" :key="index">
-        <Movie :movie="movie" />
+      <Slide v-for="(card, index) in promotions" :key="index">
+        <Combo :card="card" />
       </Slide>
-
       <template #addons>
         <Navigation>
           <template #prev>
@@ -20,42 +19,27 @@
   </div>
 </template>
 
-<script>
-import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
+<script setup>
 import "vue3-carousel/dist/carousel.css";
-import Movie from "../Movie.vue";
-import movies from '@/db/movies.json';
-export default {
-  components: {
-    Carousel,
-    Slide,
-    Pagination,
-    Navigation,
-    Movie,
-  },
-  data() {
-    return {
-      carouselConfig: {
-        itemsToShow: 5,
-        wrapAround: true,
-        autoplay: false,
-        autoplaySpeed: 3000,
-        transition: 500,
-      },
-      movies: movies,
-    };
-  },
+import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
+import Combo from "../Combo.vue";
+import promotions from "@/db/promotions.json";
+
+const carouselConfig = {
+  itemsToShow: 3,
+  wrapAround: true,
+  autoplay: false,
+  autoplaySpeed: 3000,
+  transition: 500,
 };
 </script>
 
 <style>
-
-.carousel-container {
-  max-width: 100%;
-  /* margin: auto; */
-  margin-bottom: 30px;
+.carousel-container1 {
+  width: 100%;
+  margin: auto;
+  max-width: 1355px;
 }
-
 
 .carousel__pagination {
   position: relative;
@@ -66,7 +50,6 @@ export default {
   justify-content: center;
   gap: 8px;
 }
-
 
 .carousel__pagination-button {
   width: 12px;
@@ -120,5 +103,4 @@ export default {
   font-weight: bold;
   padding: 5px;
 }
-
 </style>

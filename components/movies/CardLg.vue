@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex bg-white rounded-2xl border border-gray-200 overflow-hidden p-5"
+    class="flex w-full bg-white rounded-2xl border border-gray-200 overflow-hidden p-5"
   >
     <div class="w-32 flex-2/12 px-1">
       <img :src="movie.poster" alt="Movie Poster" class="w-full rounded-xl" />

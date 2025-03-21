@@ -98,7 +98,7 @@ function processPayment() {
 
     <div
       v-if="showSuccess"
-      class="flex flex-col items-center justify-center my-10 py-8 px-6 bg-white rounded-2xl border border-gray-200"
+      class="flex flex-col items-center justify-center w-full my-10 py-8 px-6 bg-white rounded-2xl border border-gray-200"
     >
       <div class="text-center">
         <svg
@@ -130,7 +130,7 @@ function processPayment() {
       </div>
     </div>
 
-    <div v-else class="flex flex-col md:flex-row justify-center my-10">
+    <div v-else class="flex flex-col md:flex-row justify-center w-full my-10">
       <TicketsPaymentSelection
         class="flex-2/3"
         @payment-method-change="handlePaymentMethodChange"

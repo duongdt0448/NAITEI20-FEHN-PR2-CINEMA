@@ -75,7 +75,7 @@ const subtotalsByType = computed(() => {
 
 const isPaymentButtonDisabled = computed(() => {
   if (currentStep === 4) {
-    return !termsAccepted || !props.hasSelectedPaymentMethod;
+    return !termsAccepted && !props.hasSelectedPaymentMethod;
   }
   return false;
 });
