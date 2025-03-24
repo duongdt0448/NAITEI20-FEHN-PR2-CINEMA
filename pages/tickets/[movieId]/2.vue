@@ -1,46 +1,14 @@
 <script setup>
 import { ref, onMounted } from "vue";
-import { useRoute } from "vue-router";
+import { useRoute, useRouter } from "vue-router";
+import { useCheckoutStore } from "~/stores/checkout";
 
 const route = useRoute();
+const router = useRouter();
+const checkout = useCheckoutStore();
 const movieId = route.params.movieId;
-const movieData = ref(null);
 const isLoading = ref(true);
 const error = ref(null);
-
-const theaterData = {
-  name: "BHD Star Pham Ngoc Thach",
-  screen: "Screen 7",
-  date: "21/3/2025",
-  showtime: "13h35",
-};
-
-const pricing = {
-  standard: 90000,
-  vip: 105000,
-  "first-class": 125000,
-};
-
-// Fetch movie data from JSON server
-async function fetchMovieData() {
-  isLoading.value = true;
-  try {
-    const response = await fetch(`http://localhost:5000/movies/${movieId}`);
-    if (!response.ok) {
-      throw new Error(`Movie not found or server error: ${response.status}`);
-    }
-
-    const data = await response.json();
-    console.log("data: ", data);
-    movieData.value = data;
-  } catch (err) {
-    error.value = err.message;
-    console.error("Failed to fetch movie data:", err);
-  } finally {
-    isLoading.value = false;
-    console.log(movieData);
-  }
-}
 
 const seatMap = {
   A: [
@@ -241,13 +209,35 @@ const seatMap = {
   ],
 };
 
-const selectedSeats = ref([]);
-const selectedSeatTypes = ref({});
+async function fetchMovieData() {
+  isLoading.value = true;
+  try {
+    const response = await fetch(`http://localhost:5000/movies/${movieId}`);
+    if (!response.ok) {
+      throw new Error(`Movie not found or server error: ${response.status}`);
+    }
+
+    const data = await response.json();
+    checkout.setMovieData(data);
+  } catch (err) {
+    error.value = err.message;
+    console.error("Failed to fetch movie data:", err);
+  } finally {
+    isLoading.value = false;
+  }
+}
 
 function updateSeats(seats, types) {
-  selectedSeats.value = seats;
-  selectedSeatTypes.value = types;
+  checkout.setSelectedSeats(seats, types);
 }
+
+function goToFoodSelection() {
+  router.push(`/tickets/${movieId}/3`);
+}
+
+onMounted(() => {
+  fetchMovieData();
+});
 
 onMounted(fetchMovieData);
 </script>
@@ -258,15 +248,15 @@ onMounted(fetchMovieData);
   </div>
 
   <div v-if="isLoading" class="flex justify-center p-8">
-    <div class="text-lg">Đang tải thông tin phim...</div>
+    <div class="text-lg">Đang tải thông tin ...</div>
   </div>
 
   <div v-else-if="error" class="flex justify-center p-8">
     <div class="text-lg text-red-500">{{ error }}</div>
   </div>
 
-  <template v-else-if="movieData">
-    <MoviesCardLg :movie="movieData" />
+  <template v-else-if="checkout.movieData">
+    <MoviesCardLg :movie="checkout.movieData" />
     <div class="flex flex-col md:flex-row justify-center my-10">
       <TicketsSeatSelection
         class="flex-2/3"
@@ -275,11 +265,10 @@ onMounted(fetchMovieData);
       />
       <TicketsCheckoutInfo
         class="flex-1/3"
-        :selectedSeats="selectedSeats"
-        :selectedSeatTypes="selectedSeatTypes"
-        :theaterData="theaterData"
-        :movieData="movieData"
-        :pricing="pricing"
+        :theaterData="checkout.theaterData"
+        :movieData="checkout.movieData"
+        :pricing="checkout.pricing"
+        @continue="goToFoodSelection"
       />
     </div>
   </template>

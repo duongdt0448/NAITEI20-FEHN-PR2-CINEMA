@@ -73,7 +73,8 @@
 </template>
 
 <script setup>
-import { ref, watch } from "vue";
+import { ref, watch, onMounted } from "vue";
+import { useCheckoutStore } from "~/stores/checkout";
 
 // Import images directly
 import standardSeatImg from "~/assets/images/tickets/ghe-thuong.png";
@@ -82,6 +83,7 @@ import firstClassSeatImg from "~/assets/images/tickets/first-class.png";
 import selectedSeatImg from "~/assets/images/tickets/ghe-da-chon.png";
 import soldSeatImg from "~/assets/images/tickets/ghe-da-ban.png";
 
+const checkout = useCheckoutStore();
 const props = defineProps({
   seatMap: {
     type: Object,
@@ -90,8 +92,6 @@ const props = defineProps({
 });
 
 const emit = defineEmits(["update:selectedSeats"]);
-const selectedSeats = ref([]);
-const selectedSeatTypes = ref({});
 
 // Split seat types into two groups
 const availableSeatTypes = ref([
@@ -141,6 +141,30 @@ function initializeSeats(seatMap) {
   Object.entries(seatMap).forEach(([rowLabel, rowSeats]) => {
     originalSeatTypes[rowLabel] = rowSeats.map((seat) => seat.type);
   });
+
+  // Apply any already selected seats from the store
+  if (checkout.selectedSeats.length > 0) {
+    applySelectedSeatsFromStore();
+  }
+}
+
+// New function to apply existing selections from store
+function applySelectedSeatsFromStore() {
+  checkout.selectedSeats.forEach((seatId) => {
+    const [rowLabel, seatLabel] = seatId.split("-");
+
+    // Find the row and seat indexes
+    const rowIndex = seats.value.findIndex((row) => row.label === rowLabel);
+    if (rowIndex !== -1) {
+      const seatIndex = seats.value[rowIndex].seats.findIndex(
+        (seat) => seat.label === seatLabel
+      );
+      if (seatIndex !== -1) {
+        // Mark this seat as selected in the UI
+        seats.value[rowIndex].seats[seatIndex].type = "selected";
+      }
+    }
+  });
 }
 
 function toggleSeatSelection(rowIndex, seatIndex) {
@@ -154,16 +178,38 @@ function toggleSeatSelection(rowIndex, seatIndex) {
     // Deselect the seat
     const originalType = originalSeatTypes[rowLabel][seatIndex];
     seat.type = originalType;
-    selectedSeats.value = selectedSeats.value.filter((s) => s !== seatId);
-    delete selectedSeatTypes.value[seatId];
+
+    // Update store
+    const updatedSeats = checkout.selectedSeats.filter((s) => s !== seatId);
+    const updatedTypes = { ...checkout.selectedSeatTypes };
+    delete updatedTypes[seatId];
+    checkout.setSelectedSeats(updatedSeats, updatedTypes);
   } else {
     // Select the seat
     const originalType = originalSeatTypes[rowLabel][seatIndex];
     seat.type = "selected";
-    selectedSeats.value.push(seatId);
-    selectedSeatTypes.value[seatId] = originalType;
+
+    // Update store
+    const updatedSeats = [...checkout.selectedSeats, seatId];
+    const updatedTypes = {
+      ...checkout.selectedSeatTypes,
+      [seatId]: originalType,
+    };
+    checkout.setSelectedSeats(updatedSeats, updatedTypes);
   }
 
-  emit("update:selectedSeats", selectedSeats.value, selectedSeatTypes.value);
+  // Still emit for compatibility with parent components
+  emit(
+    "update:selectedSeats",
+    checkout.selectedSeats,
+    checkout.selectedSeatTypes
+  );
 }
+
+// Initialize from store when component mounts
+onMounted(() => {
+  if (checkout.selectedSeats.length > 0 && seats.value.length > 0) {
+    applySelectedSeatsFromStore();
+  }
+});
 </script>

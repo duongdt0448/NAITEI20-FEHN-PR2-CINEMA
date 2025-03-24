@@ -586,38 +586,27 @@
   "foods": [
     {
       "id": 1,
-      "name": "Popcorn",
-      "price": 10000,
-      "description": "Popcorn tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
-      "image_url": "https://example.com/images/popcorn.jpg"
+      "name": "OL Combo1 - Sweet 22Oz",
+      "price": 80100,
+      "oldPrice": 89000,
+      "description": "01 bắp lớn vị ngọt + 01 nước vừa. Nhận trong ngày xem phim.",
+      "image_url": "https://booking.bhdstar.vn/CDN/media/entity/get/ItemGraphic/662613"
     },
     {
       "id": 2,
-      "name": "Nachos",
-      "price": 20000,
-      "description": "Nachos tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
-      "image_url": "https://example.com/images/nachos.jpg"
+      "name": "OL Combo2 - Sweet 22Oz",
+      "price": 103500,
+      "oldPrice": 115000,
+      "description": "01 bắp lớn vị ngọt + 02 nước vừa. Nhận trong ngày xem phim.",
+      "image_url": "https://booking.bhdstar.vn/CDN/media/entity/get/ItemGraphic/662614"
     },
     {
       "id": 3,
-      "name": "Hot Dog",
-      "price": 30000,
-      "description": "Hot Dog tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
-      "image_url": "https://example.com/images/hot_dog.jpg"
-    },
-    {
-      "id": 4,
-      "name": "French Fries",
-      "price": 40000,
-      "description": "French Fries tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
-      "image_url": "https://example.com/images/french_fries.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Soft Drink",
-      "price": 50000,
-      "description": "Soft Drink tươi ngon, hấp dẫn, phù hợp khi thưởng thức phim.",
-      "image_url": "https://example.com/images/soft_drink.jpg"
+      "name": "OL HN Combo Aquafina",
+      "price": 75600,
+      "oldPrice": 84000,
+      "description": "01 bắp lớn vị ngọt + 01 Aquafina. Nhận trong ngày xem phim.",
+      "image_url": "https://booking.bhdstar.vn/CDN/media/entity/get/ItemGraphic/662615"
     }
   ],
 
