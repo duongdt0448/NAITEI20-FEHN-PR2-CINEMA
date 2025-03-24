@@ -11,7 +11,11 @@ export default defineNuxtConfig({
     "~/assets/css/main.css",
     "@fortawesome/fontawesome-free/css/all.min.css",
   ],
-  modules: ["@primevue/nuxt-module"],
+  modules: [
+    "@pinia/nuxt",
+    "@primevue/nuxt-module",
+    "@stefanobartoletti/nuxt-social-share",
+  ],
   plugins: ["~/plugins/timer"],
   primevue: {
     options: {
@@ -22,5 +26,8 @@ export default defineNuxtConfig({
   },
   vite: {
     plugins: [tailwindcss()],
+  },
+  socialShare: {
+    baseUrl: "http://localhost:3000/",
   },
 });

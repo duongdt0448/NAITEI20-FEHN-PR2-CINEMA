@@ -4,34 +4,49 @@
         "code": "PROMO1169",
         "discount_percent": 20,
         "total_amount": 92892,
-        "min_order": 269575
+        "min_order": 269575,
+        "title": "COMBO XMAS SIÊU CUTE TẠI BHD STAR",
+        "image": "/cards/combo_xmas.jpg",
+        "description":"GIÁNG SINH LUNG LINH TẠI BHD STAR Chào đón Giáng Sinh tại BHD Star với bộ ly túi xinh iu nè cả nhà ơi Mau mau đến rạp BHD Star ngay để đón Giáng Sinh sớm nhé các bạn ơi Sản phẩm đã có mặt tại cụm rạp BHD Star TP.HCM Đặt vé tại: bhdstar.vn […]"
     },
     {
         "id": 2,
         "code": "PROMO2218",
         "discount_percent": 25,
         "total_amount": 413429,
-        "min_order": 236096
+        "min_order": 236096,
+        "title": "COMBO XMAS SIÊU CUTE TẠI BHD STAR",
+        "image": "/cards/combo_xmas.jpg",
+        "description":"GIÁNG SINH LUNG LINH TẠI BHD STAR Chào đón Giáng Sinh tại BHD Star với bộ ly túi xinh iu nè cả nhà ơi Mau mau đến rạp BHD Star ngay để đón Giáng Sinh sớm nhé các bạn ơi Sản phẩm đã có mặt tại cụm rạp BHD Star TP.HCM Đặt vé tại: bhdstar.vn […]"
     },
     {
         "id": 3,
         "code": "PROMO3824",
         "discount_percent": 20,
         "total_amount": 280897,
-        "min_order": 273462
+        "min_order": 273462,
+        "title": "COMBO XMAS SIÊU CUTE TẠI BHD STAR",
+        "image": "/cards/combo_xmas.jpg",
+        "description":"GIÁNG SINH LUNG LINH TẠI BHD STAR Chào đón Giáng Sinh tại BHD Star với bộ ly túi xinh iu nè cả nhà ơi Mau mau đến rạp BHD Star ngay để đón Giáng Sinh sớm nhé các bạn ơi Sản phẩm đã có mặt tại cụm rạp BHD Star TP.HCM Đặt vé tại: bhdstar.vn […]"
     },
     {
         "id": 4,
         "code": "PROMO4118",
         "discount_percent": 10,
         "total_amount": 130762,
-        "min_order": 183466
+        "min_order": 183466,
+        "title": "COMBO XMAS SIÊU CUTE TẠI BHD STAR",
+        "image": "/cards/combo_xmas.jpg",
+        "description":"GIÁNG SINH LUNG LINH TẠI BHD STAR Chào đón Giáng Sinh tại BHD Star với bộ ly túi xinh iu nè cả nhà ơi Mau mau đến rạp BHD Star ngay để đón Giáng Sinh sớm nhé các bạn ơi Sản phẩm đã có mặt tại cụm rạp BHD Star TP.HCM Đặt vé tại: bhdstar.vn […]"
     },
     {
         "id": 5,
         "code": "PROMO5570",
         "discount_percent": 15,
         "total_amount": 240573,
-        "min_order": 202582
+        "min_order": 202582,
+        "title": "COMBO XMAS SIÊU CUTE TẠI BHD STAR",
+        "image": "/cards/combo_xmas.jpg",
+        "description":"GIÁNG SINH LUNG LINH TẠI BHD STAR Chào đón Giáng Sinh tại BHD Star với bộ ly túi xinh iu nè cả nhà ơi Mau mau đến rạp BHD Star ngay để đón Giáng Sinh sớm nhé các bạn ơi Sản phẩm đã có mặt tại cụm rạp BHD Star TP.HCM Đặt vé tại: bhdstar.vn […]"
     }
 ]

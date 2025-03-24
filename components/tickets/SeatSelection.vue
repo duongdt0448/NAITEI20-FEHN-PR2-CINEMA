@@ -1,5 +1,5 @@
 <template>
-  <div class="cinema-map-container text-gray-400">
+  <div class="h-fit text-gray-400">
     <div class="map-header text-center px-24">
       <img
         src="~/assets/images/tickets/seatMapHeader.png"

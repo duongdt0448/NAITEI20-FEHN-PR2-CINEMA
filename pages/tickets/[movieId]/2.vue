@@ -209,6 +209,10 @@ const seatMap = {
   ],
 };
 
+onMounted(() => {
+  fetchMovieData();
+});
+
 async function fetchMovieData() {
   isLoading.value = true;
   try {
@@ -234,12 +238,6 @@ function updateSeats(seats, types) {
 function goToFoodSelection() {
   router.push(`/tickets/${movieId}/3`);
 }
-
-onMounted(() => {
-  fetchMovieData();
-});
-
-onMounted(fetchMovieData);
 </script>
 
 <template>
@@ -257,7 +255,7 @@ onMounted(fetchMovieData);
 
   <template v-else-if="checkout.movieData">
     <MoviesCardLg :movie="checkout.movieData" />
-    <div class="flex flex-col md:flex-row justify-center my-10">
+    <div class="flex flex-col md:flex-row justify-center w-full my-10">
       <TicketsSeatSelection
         class="flex-2/3"
         :seatMap="seatMap"
