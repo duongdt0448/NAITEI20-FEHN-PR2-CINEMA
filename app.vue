@@ -1,13 +1,12 @@
-<script>
+<script setup>
 import "primeicons/primeicons.css";
+import SidebarProvider from "~/components/admin/SidebarProvider.vue";
 </script>
 
 <template>
-  <div>
-    <Header />
+  <SidebarProvider>
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-    <Footer />
-  </div>
+  </SidebarProvider>
 </template>
